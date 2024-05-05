@@ -1,0 +1,11 @@
+{
+  "navigation": {
+    "home": "Home"
+  },
+  "page": {
+    "home": {
+      "title": "Página de boas vindas",
+      "description": "descrição da página de boas vindas"
+    }
+  }
+}
