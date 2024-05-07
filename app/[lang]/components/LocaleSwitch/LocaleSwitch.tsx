@@ -21,7 +21,7 @@ export default function LocaleSwitch() {
       {i18n.locales.map((locale) => {
         return (
           <li key={locale}>
-            <Link href={redirectedPathName(locale)} className="rounded-md border bg-white px-3 py-2 text-white">
+            <Link href={redirectedPathName(locale)} className="rounded-md border bg-white px-3 py-2 text-black">
               {locale}
             </Link>
           </li>
