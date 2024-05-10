@@ -1,11 +1,30 @@
 {
-  "navigation": {
-    "home": "Home"
+  "header": {
+    "beginning": "Início",
+    "advantages": "Vantagens",
+    "getToKnow": "Conheça a Flizbar",
+    "plans": "Planos",
+    "client": "Já sou cliente",
+    "buttonTxt": "Abra sua conta agora"
   },
   "page": {
-    "home": {
-      "title": "Página de boas vindas",
-      "description": "descrição da página de boas vindas"
+    "default": {
+      "beginning": {
+        "openAcc": "Abra uma conta e faça seu dinheiro render",
+        "title": "Somos seu parceiro de investimentos.",
+        "text": "Descubra a maneira mais inteligente de gerir seus investimentos com a Flizbar. Oferecemos um pacote completo de ferramentas e especialistas prontos para guiá-lo em cada etapa da sua jornada de investimento.",
+        "button": "Abra sua conta agora",
+        "presentation": "Somos a sua casa quando o assunto é",
+        "presentationSpan": "renda variável."
+      },
+      "advantages": {},
+      "know": {},
+      "plans": {}
     }
+  },
+  "languages": {
+    "portuguese": "Português",
+    "english": "English",
+    "spanish": "Espanõl"
   }
 }

@@ -1,11 +1,30 @@
 {
-  "navigation": {
-    "home": "Home"
+  "header": {
+    "beginning": "Beginning",
+    "advantages": "Advantages",
+    "getToKnow": "Get to Know Flizbar",
+    "plans": "Plans",
+    "client": "I am client",
+    "buttonTxt": "Open your account now"
   },
   "page": {
-    "home": {
-      "title": "Welcome page",
-      "description": "description of welcoming page"
+    "default": {
+      "beginning": {
+        "openAcc": "Open an account and make your money grow",
+        "title": "We are your investment partner.",
+        "text": "Discover the smartest way to manage your investments with Flizbar. We offer a complete package of tools and experts ready to guide you at every step of your investment journey.",
+        "button": "Open your account now",
+        "presentation": "We are your home when it comes to",
+        "presentationSpan": "equity investment."
+      },
+      "advantages": {},
+      "know": {},
+      "plans": {}
     }
+  },
+  "languages": {
+    "portuguese": "Português",
+    "english": "English",
+    "spanish": "Espanõl"
   }
 }
