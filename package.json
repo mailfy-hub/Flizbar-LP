@@ -10,13 +10,16 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.5.4",
+    "@hookform/resolvers": "^3.4.0",
     "@types/negotiator": "^0.6.3",
     "negotiator": "^0.6.3",
     "next": "14.2.3",
     "phosphor-icons": "^1.4.2",
     "phosphor-react": "^1.4.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",

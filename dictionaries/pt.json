@@ -4,6 +4,7 @@
     "advantages": "Vantagens",
     "getToKnow": "Conheça a Flizbar",
     "plans": "Planos",
+    "contact": "Contato",
     "client": "Já sou cliente",
     "buttonTxt": "Abra sua conta agora"
   },
@@ -17,9 +18,112 @@
         "presentation": "Somos a sua casa quando o assunto é",
         "presentationSpan": "renda variável."
       },
-      "advantages": {},
-      "know": {},
-      "plans": {}
+      "advantages": {
+        "title": "A ESCOLHA CERTA",
+        "subtitle": "Por que escolher a Flizbar?",
+        "menu": {
+          "first": {
+            "btnText": "Especialistas em",
+            "btnSub": "Renda Variável",
+            "title": "Não deixe o seu futuro financeiro ao acaso.",
+            "subtitle": "Nossa equipe é composta por especialistas em renda variável, acumulando mais de 30 anos de experiência no mercado. Quando o assunto é investimento, somos a escolha definitiva. Confie na expertise da Flizbar para orientá-lo na busca pelos melhores resultados financeiros."
+          },
+          "second": {
+            "btnText": "Atendimento",
+            "btnSub": "humanizado"
+          },
+          "third": {
+            "btnText": "Salas exclusivas",
+            "btnSub": "de trading"
+          },
+          "fourth": {
+            "btnText": "Transparência",
+            "btnSub": "de custos"
+          }
+        }
+      },
+      "know": {
+        "title": "SOBRE A FLIZBAR",
+        "subtitle": "Conheça mais sobre nós",
+        "presentationText": "Na Flizbar, estamos empenhados em transformar a maneira como você encara seus investimentos. Combinando tecnologia de ponta e a expertise de nossos especialistas em renda variável, oferecemos soluções abrangentes para simplificar e potencializar seus recursos financeiros.",
+        "firstCardTitle": "Quem somos",
+        "firstCardText": "Com mais de 30 anos de experiência em renda variável, nossa equipe trouxe uma vasta bagagem de conhecimentos e insights para a mesa.",
+        "firstCardSecondText": "Nossos fundadores, analistas e assessores são profissionais renomados na área e dedicaram suas vidas a entender os mercados e as pessoas que investem neles.",
+        "secondCardTitle": "Nossa missão",
+        "secondCardText": "A missão da Flizbar é clara: fornecer um serviço excepcional e transparente que ajude os investidores a alcançarem seus objetivos financeiros, seja você um trader iniciante ou um investidor de alta renda.",
+        "secondCardSecondText": "Fazendo com que você possa desfrutar da sua liberdade financeira de verdade.",
+        "thirdCardTitle": "Nossos valores",
+        "thirdCardText": "Estamos comprometidos em oferecer serviços de longo prazo para nossos clientes, sempre buscando as melhores alternativas para preservação e crescimento patrimonial.",
+        "thirdCardSecondText": "Somos inquietos e inovadores, e buscamos traduzir isso em soluções para você. Mas, mais importante ainda, estamos comprometidos com você e com o seu sucesso financeiro.",
+        "lastText": "Pronto para transformar sua maneira de investir? Conte conosco."
+      },
+      "plans": {
+        "initialText": "PLANOS",
+        "title": "Escolha o seu plano de investimento ideal",
+        "subtitle": "Independente do tamanho do seu patrimônio, oferecemos uma gama de serviços exclusivos para atender às suas necessidades.",
+        "plan": "Plano",
+        "plansTitles": {
+          "trader": "Trader",
+          "high": "Alta Renda",
+          "private": "Private",
+          "ultraHigh": "Ultra High"
+        },
+        "plansCustody": {
+          "trader": "custódia até R$ 300 mil",
+          "high": "custódia até entre R$ 300 mil e R$ 1 milhão",
+          "private": "custódia até entre R$ 1 milhão e R$ 5 milhões",
+          "ultraHigh": "custódia acima de R$ 5 milhões"
+        },
+        "plansDetails": {
+          "trader": [
+            "Transparência de custos",
+            "Atendimento ágil e humanizado",
+            "Plataforma de negociações grátis",
+            "Acesso a conteúdos sobre Renda Variável",
+            "Envio de ordens via WhatsApp com operador experiente",
+            "Modelo de assessoria dedicada ao Trader"
+          ],
+          "high": [
+            "Transparência de custos",
+            "Atendimento ágil e humanizado",
+            "Plataforma de negociações grátis",
+            "Acesso a conteúdos sobre Renda Variável",
+            "Envio de ordens via WhatsApp com operador experiente",
+            "Assessoria via WhatsApp",
+            "Reunião mensal com assessor exclusivo",
+            "Live mensal de análise com especialista de mercado"
+          ],
+          "private": [
+            "Transparência de custos",
+            "Atendimento ágil e humanizado",
+            "Plataforma de negociações grátis",
+            "Acesso a conteúdos sobre Renda Variável",
+            "Assessoria completa por WhatsApp e telefone 24/7",
+            "Monitoramento ativo do risco da sua carteira de investimentos",
+            "Anuidade gratuita do Trading Floor",
+            "Calculadora de IR grátis",
+            "Reunião mensal com assessor exclusivo",
+            "Live mensal de análise com especialista de mercado",
+            "Assessoria tributária em renda variável",
+            "Apoio educacional e estratégico sobre investimentos"
+          ],
+          "ultraHigh": [
+            "Transparência de custos",
+            "Atendimento ágil e humanizado",
+            "Plataforma de negociações grátis",
+            "Acesso a conteúdos sobre Renda Variável",
+            "Assessoria completa por WhatsApp e telefone 24/7",
+            "Monitoramento ativo do risco da sua carteira de investimentos",
+            "Anuidade gratuita do Trading Floor",
+            "Calculadora de IR grátis",
+            "Reunião mensal com assessor exclusivo",
+            "Live mensal de análise com especialista de mercado",
+            "Assessoria tributária em renda variável",
+            "Apoio educacional e estratégico sobre investimentos"
+          ]
+        }
+      },
+      "contact": {}
     }
   },
   "languages": {

@@ -4,6 +4,7 @@
     "advantages": "Advantages",
     "getToKnow": "Get to Know Flizbar",
     "plans": "Plans",
+    "contact": "Contact",
     "client": "I am client",
     "buttonTxt": "Open your account now"
   },
@@ -17,9 +18,111 @@
         "presentation": "We are your home when it comes to",
         "presentationSpan": "equity investment."
       },
-      "advantages": {},
-      "know": {},
-      "plans": {}
+      "advantages": {
+        "title": "THE RIGHT CHOICE",
+        "subtitle": "Why choose Flizbar?",
+        "menu": {
+          "first": {
+            "btnText": "Specialists in",
+            "btnSub": "Variable Income",
+            "title": "Don't leave your financial future to chance.",
+            "subtitle": "Our team consists of specialists in variable income, accumulating over 30 years of experience in the market. When it comes to investment, we are the ultimate choice. Trust Flizbar's expertise to guide you in pursuit of the best financial outcomes."
+          },
+          "second": {
+            "btnText": "Personalized",
+            "btnSub": "customer service"
+          },
+          "third": {
+            "btnText": "Exclusive",
+            "btnSub": "trading rooms"
+          },
+          "fourth": {
+            "btnText": "Cost",
+            "btnSub": "transparency"
+          }
+        }
+      },
+      "know": {
+        "title": "ABOUT FLIZBAR",
+        "subtitle": "Get to Know Us Better",
+        "presentationText": "At Flizbar, we are dedicated to transforming the way you approach your investments. By combining cutting-edge technology with the expertise of our specialists in variable income, we offer comprehensive solutions to simplify and enhance your financial resources.",
+        "firstCardTitle": "Who We Are",
+        "firstCardText": "With over 30 years of experience in variable income, our team brings a wealth of knowledge and insights to the table.",
+        "firstCardSecondText": "Our founders, analysts, and advisors are renowned professionals in the field who have dedicated their lives to understanding the markets and the people who invest in them.",
+        "secondCardTitle": "Our Mission",
+        "secondCardText": "Flizbar's mission is clear: to provide exceptional and transparent service that helps investors achieve their financial goals, whether you are a novice trader or a high-income investor.",
+        "secondCardSecondText": "We aim to help you truly enjoy your financial freedom.",
+        "thirdCardTitle": "Our Values",
+        "thirdCardText": "We are committed to offering long-term services to our clients, always seeking the best alternatives for wealth preservation and growth.",
+        "thirdCardSecondText": "We are restless and innovative, striving to translate this into solutions for you. But most importantly, we are committed to you and your financial success.",
+        "lastText": "Ready to transform your investment approach? Count on us."
+      },
+      "plans": {
+        "initialText": "PLANS",
+        "title": "Choose Your Ideal Investment Plan",
+        "subtitle": "Regardless of the size of your assets, we offer a range of exclusive services to meet your needs.",
+        "plan": "Plan",
+        "plansTitles": {
+          "trader": "Trader",
+          "high": "High Income",
+          "private": "Private",
+          "ultraHigh": "Ultra High"
+        },
+        "plansCustody": {
+          "trader": "custody up to $300,000",
+          "high": "custody between $300,000 and $1 million",
+          "private": "custody between $1 million and $5 million",
+          "ultraHigh": "custody above $5 million"
+        },
+        "plansDetails": {
+          "trader": [
+            "Cost transparency",
+            "Agile and humanized service",
+            "Free trading platform",
+            "Access to Variable Income content",
+            "Order sending via WhatsApp with an experienced operator",
+            "Dedicated Trader advisory model"
+          ],
+          "high": [
+            "Cost transparency",
+            "Agile and humanized service",
+            "Free trading platform",
+            "Access to Variable Income content",
+            "Order sending via WhatsApp with an experienced operator",
+            "Advisory via WhatsApp",
+            "Monthly meeting with exclusive advisor",
+            "Monthly market analysis live with a specialist"
+          ],
+          "private": [
+            "Cost transparency",
+            "Agile and humanized service",
+            "Free trading platform",
+            "Access to Variable Income content",
+            "Complete advisory via WhatsApp and phone 24/7",
+            "Active risk monitoring of your investment portfolio",
+            "Free annual Trading Floor membership",
+            "Free tax calculator",
+            "Monthly meeting with exclusive advisor",
+            "Monthly market analysis live with a specialist",
+            "Tax advisory in variable income",
+            "Educational and strategic support on investments"
+          ],
+          "ultraHigh": [
+            "Cost transparency",
+            "Agile and humanized service",
+            "Free trading platform",
+            "Access to Variable Income content",
+            "Complete advisory via WhatsApp and phone 24/7",
+            "Active risk monitoring of your investment portfolio",
+            "Free annual Trading Floor membership",
+            "Free tax calculator",
+            "Monthly meeting with exclusive advisor",
+            "Monthly market analysis live with a specialist",
+            "Tax advisory in variable income",
+            "Educational and strategic support on investments"
+          ]
+        }
+      }
     }
   },
   "languages": {
