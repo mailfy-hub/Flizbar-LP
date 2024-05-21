@@ -15,8 +15,12 @@ export default function LocaleSwitch({ lang, languages }: { lang: Locale; langua
 
   return (
     <div className="flex gap-x-3">
-      <div className="relative">
-        <select className="rounded-full h-[40px] px-[4px] py-[5px] text-sm bg-black cursor-pointer" value={lang} onChange={handleChange}>
+      <div className="">
+        <select
+          className="rounded-full w-full h-[40px] px-[4px] py-[5px] text-sm bg-black cursor-pointer"
+          value={lang}
+          onChange={handleChange}
+        >
           <option value="pt-BR">{languages.portuguese}</option>
           <option value="en">{languages.english}</option>
           <option value="es-ES">{languages.spanish}</option>

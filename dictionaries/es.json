@@ -122,6 +122,27 @@
             "Apoyo educativo y estratégico sobre inversiones"
           ]
         }
+      },
+      "contact": {
+        "topText": "Únete a nuestra lista VIP",
+        "title": "Recibe novedades",
+        "subtitle": "Recibe primero las novedades y los principales consejos directamente de nuestros canales de comunicación.",
+        "completeName": "Nombre completo",
+        "email": "Dirección de correo electrónico",
+        "phone": "Teléfono",
+        "send": "Enviar"
+      },
+      "footer": {
+        "title": "Cuenta con Flizbar para maximizar el potencial de tus inversiones.",
+        "talkToUs": "HABLA CON NOSOTROS",
+        "email": "contacto@flizbar.com.br",
+        "number": "+55 (11) 98501-4825",
+        "address": "Calle Senador Tarso Dutra 161A, Sala 1602/1603",
+        "state": "São Paulo - SP | 90690-140",
+        "rights": "© Flizbar | 2024 • Todos los derechos reservados",
+        "useTerms": "TÉRMINOS DE USO",
+        "privacy": "POLÍTICA DE PRIVACIDAD",
+        "company": "FLIZBAR CAPITAL ASESORÍA DE INVERSIONES | CNPJ: 27.652.684/0001-62 © 2024"
       }
     }
   },

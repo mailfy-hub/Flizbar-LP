@@ -6,7 +6,8 @@
     "plans": "Planos",
     "contact": "Contato",
     "client": "Já sou cliente",
-    "buttonTxt": "Abra sua conta agora"
+    "buttonTxt": "Abra sua conta agora",
+    "institutional": "Institucional"
   },
   "page": {
     "default": {
@@ -123,7 +124,27 @@
           ]
         }
       },
-      "contact": {}
+      "contact": {
+        "topText": "Participe de nossa lista vip",
+        "title": "Receba novidades",
+        "subtitle": "Receba primeiro as novidades e principais dicas diretamente de nossos canais de comunicação.",
+        "completeName": "Nome completo",
+        "email": "Endereço de e-mail",
+        "phone": "Telefone",
+        "send": "Enviar"
+      },
+      "footer": {
+        "title": "Conte com a Flizbar para maximizar o potencial dos seus investimentos.",
+        "talkToUs": "FALE COM A GENTE",
+        "email": "contato@flizbar.com.br",
+        "number": "+55 (11) 98501-4825",
+        "address": "v. Senador Tarso Dutra 161A, Sala 1602/1603",
+        "state": "São Paulo - SP | 90690-140",
+        "rights": "© Flizbar | 2024 • Todos os direitos reservados",
+        "useTerms": "TERMOS DE USO",
+        "privacy": "POLÍTICAS DE PRIVACIDADE",
+        "company": "FLIZBAR CAPITAL ACESSORIA DE INVESTIMENTOS | CNPJ: 27.652.684/0001-62 © 2024 "
+      }
     }
   },
   "languages": {

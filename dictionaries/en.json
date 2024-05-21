@@ -122,6 +122,27 @@
             "Educational and strategic support on investments"
           ]
         }
+      },
+      "contact": {
+        "topText": "Join our VIP list",
+        "title": "Receive updates",
+        "subtitle": "Be the first to receive news and top tips directly from our communication channels.",
+        "completeName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone",
+        "send": "Send"
+      },
+      "footer": {
+        "title": "Count on Flizbar to maximize the potential of your investments.",
+        "talkToUs": "TALK TO US",
+        "email": "contact@flizbar.com.br",
+        "number": "+55 (11) 98501-4825",
+        "address": "Senador Tarso Dutra St. 161A, Room 1602/1603",
+        "state": "São Paulo - SP | 90690-140",
+        "rights": "© Flizbar | 2024 • All rights reserved",
+        "useTerms": "TERMS OF USE",
+        "privacy": "PRIVACY POLICY",
+        "company": "FLIZBAR CAPITAL INVESTMENT ADVISORY | CNPJ: 27.652.684/0001-62 © 2024"
       }
     }
   },
