@@ -5,17 +5,20 @@ import Header from "@/components/Header/Header";
 import MainContentRouter from "@/components/MainContentRouter/MainContentRouter";
 import { useDictionary } from "./dictionary-provider";
 import { useEffect, useState } from "react";
+import { useCookies } from "next-client-cookies";
 
 export default function Page({ params: { lang } }: { params: { lang: Locale } }) {
   const dictionary = useDictionary();
   const [contentIndex, setContentIndex] = useState("init");
 
+  const cookies = useCookies();
+
   const handleContentIndex = (content: string) => {
     setContentIndex(content);
-    localStorage.setItem("contentIndex", content);
+    cookies.set("contentIndex", content);
   };
 
-  const savedContent = localStorage.getItem("contentIndex");
+  const savedContent = cookies.get("contentIndex") || "";
   useEffect(() => {
     if (savedContent) {
       setContentIndex(savedContent);
