@@ -1,5 +1,4 @@
 import ArrowRight from "@/components/ArrowRight/ArrowRight";
-import React from "react";
 
 interface SelectCardProps {
   title: string;
@@ -8,17 +7,26 @@ interface SelectCardProps {
   onClick: () => void;
 }
 
-export default function SelectCard({ title, subtitle, selected, onClick }: SelectCardProps) {
+export default function SelectCard({
+  title,
+  subtitle,
+  selected,
+  onClick,
+}: SelectCardProps) {
   return (
     <div
       onClick={onClick}
       className={`flex justify-between items-center h-full cursor-pointer px-[26px] lg:w-full border-b min-w-[300px] ${
-        selected ? "border-b-[#C89305]" : "border-b-[#7E7873]"
+        selected
+          ? "border-b-[#C89305]"
+          : "border-b-[#7E7873] transition-all hover:opacity-75"
       }`}
     >
       <p className="flex flex-col max-w-[162px] text-[20px]">
         {title}
-        <p className={`${selected ? "text-[#C89305]" : "text-white"}`}>{subtitle}</p>
+        <p className={`${selected ? "text-[#C89305]" : "text-white"}`}>
+          {subtitle}
+        </p>
       </p>
       <ArrowRight />
     </div>

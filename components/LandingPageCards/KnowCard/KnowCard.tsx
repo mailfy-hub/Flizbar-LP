@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function KnowCard({ languages }: { languages: any }) {
   const know = languages.page.default.know;
   return (
-    <div className="flex flex-col w-full px-[20px] md:px-[60px] 2xl:px-[112px] md:mt-12 bg-[#1E1C1B]">
+    <div className="flex flex-col w-full px-[20px] md:px-[60px] 2xl:px-[112px] md:mt-12 ">
       <div className="flex flex-col justify-center items-center w-full">
         <p className="text-[#C89305] font-bold text-[14px] mt-12">{know.title}</p>
         <p className="text-[30px] md:text-[40px] mb-[20px]">{know.subtitle}</p>
