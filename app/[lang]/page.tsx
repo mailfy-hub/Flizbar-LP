@@ -10,32 +10,20 @@ import { TickerTape } from "react-ts-tradingview-widgets";
 import bg from "../../assets/background_hero.png";
 import { useDictionary } from "./dictionary-provider";
 
-export default function Page({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+export default function Page({ params: { lang } }: { params: { lang: Locale } }) {
   const dictionary = useDictionary();
 
   return (
     <>
-      <div
-        id="beginning"
-        className="w-full bg-cover bg-center"
-        style={{ backgroundImage: `url(${bg.src})` }}
-      >
+      <div id="beginning" className="w-full bg-cover bg-center" style={{ backgroundImage: `url(${bg.src})` }}>
         <div className="w-full max-w-[1216px] mx-auto">
-          <Header
-            lang={lang}
-            languages={dictionary.header}
-            btn={dictionary.languages}
-          />
+          <Header lang={lang} languages={dictionary.header} btn={dictionary.languages} />
           <BegginPresentationCard languages={dictionary} />
         </div>
         <TickerTape isTransparent colorTheme="dark"></TickerTape>
       </div>
 
-      <div className="flex flex-col px-[20px] md:px-[612px] 2xl:px-[112px] mt-[124px]">
+      <div className="flex flex-col px-[20px] md:px-[60px] 2xl:px-[112px] mt-[124px]">
         <div id="advantages">
           <div className="w-full max-w-[1216px] mx-auto">
             <AdvantagesCard languages={dictionary} />
