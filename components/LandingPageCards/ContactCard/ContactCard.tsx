@@ -1,9 +1,11 @@
-import OpenAccButton from "@/components/OpenAccButton/OpenAccButton";
 import React from "react";
 import * as yup from "yup";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Footer from "../Footer/Footer";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 const schema = yup.object().shape({
   name: yup.string().required(),
@@ -38,9 +40,9 @@ export default function ContactCard({ languages }: { languages: any }) {
     <div className="flex flex-col w-full 2xl:mt-[180px] 2xl:h-[calc(100vh-165px)] justify-center items-center">
       <div className="flex flex-col justify-center items-center w-full mb-14">
         <p className="text-[#C89305] font-bold text-[14px] mt-4">{contact.topText}</p>
-        <p className="text-[40px] mb-[20px]">{contact.title}</p>
+        <p className="text-[30px] md:text-[40px] mb-[20px]">{contact.title}</p>
 
-        <p className="max-w-[510px] text-[16px] mb-[64px] text-center">{contact.subtitle}</p>
+        <p className={`max-w-[510px] text-[16px] mb-[64px] text-center ${inter.className}`}>{contact.subtitle}</p>
 
         <form onSubmit={handleSubmit(onSubmitHandler)} className="flex flex-col gap-4 max-w-[488px] w-full">
           <input

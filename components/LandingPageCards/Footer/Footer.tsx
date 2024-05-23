@@ -11,6 +11,9 @@ import LinkedinIcon from "../../../assets/linkedin.png";
 import YoutubeIcon from "../../../assets/youtube.png";
 import FacebookIcon from "../../../assets/facebook.png";
 import TwitterIcon from "../../../assets/twitter.png";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Footer({ languages }: { languages: any }) {
   const footer = languages.page.default.footer;
@@ -37,12 +40,12 @@ export default function Footer({ languages }: { languages: any }) {
         <div className="flex flex-col gap-6">
           <p>{footer.talkToUs}</p>
 
-          <div className="flex gap-1 items-center">
+          <div className={`flex gap-1 items-center ${inter.className}`}>
             <Image className="w-[18px] h-[18px]" src={EmailIcon.src} width={1} height={1} alt="email" />
             <p>{footer.email}</p>
           </div>
 
-          <div className="flex gap-1 items-center">
+          <div className={`flex gap-1 items-center ${inter.className}`}>
             <Image className="w-[18px] h-[18px]" src={PhoneIcon.src} width={1} height={1} alt="phone" />
             <p>{footer.number}</p>
           </div>
@@ -53,8 +56,8 @@ export default function Footer({ languages }: { languages: any }) {
             <OpenAccButton text={languages.header.buttonTxt} />
           </div>
 
-          <p className="max-w-[279px]">
-            {footer.address} <p>{footer.state}</p>
+          <p className={`max-w-[279px] ${inter.className}`}>
+            {footer.address} <span>{footer.state}</span>
           </p>
         </div>
       </div>
@@ -62,7 +65,7 @@ export default function Footer({ languages }: { languages: any }) {
       <div className="flex flex-col md:flex-row w-full justify-between md:items-center text-center mt-[100px] font-thin">
         <p>{footer.rights}</p>
 
-        <div className="flex justify-center gap-x-[24px] text-[14px] font-thin mt-8 md:mt-0 text-center">
+        <div className={`flex justify-center gap-x-[24px] text-[14px] font-thin mt-8 md:mt-0 text-center ${inter.className}`}>
           <p>{footer.useTerms}</p>
           <p>{footer.privacy}</p>
         </div>

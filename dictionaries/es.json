@@ -23,22 +23,28 @@
         "subtitle": "Por qué elegir Flizbar?",
         "menu": {
           "first": {
-            "btnText": "Especialistas en",
-            "btnSub": "Renta Variable",
-            "title": "No dejes al azar tu futuro financiero.",
-            "subtitle": "Nuestro equipo está formado por especialistas en renta variable, con más de 30 años de experiencia en el mercado. Cuando se trata de inversión, somos la elección definitiva. Confía en la experiencia de Flizbar para guiarte en la búsqueda de los mejores resultados financieros."
+            "btnText": "Evaluación",
+            "btnSub": "Financiera",
+            "title": "Análisis Completo de Su Situación Financiera",
+            "subtitle": "En Flizbar, comenzamos con un análisis integral de su situación financiera actual. Esto incluye la evaluación de sus ingresos, gastos, deudas, inversiones, objetivos y metas. Comprender detalladamente su posición financiera es el primer paso para crear un plan eficaz y sostenible."
           },
           "second": {
-            "btnText": "Atención",
-            "btnSub": "personalizada"
+            "btnText": "Plan de Acción",
+            "btnSub": "Personalizado",
+            "title": "Estrategia Detallada y Personalizada para Sus Finanzas",
+            "subtitle": "Basándonos en la evaluación financiera, creamos un plan de acción personalizado que detalla todos sus gastos variables, costos fijos y deudas pendientes. Este plan se adapta a sus necesidades específicas, asegurando que todas las áreas de sus finanzas estén cubiertas y dirigidas a alcanzar sus objetivos."
           },
           "third": {
-            "btnText": "Salas exclusivas",
-            "btnSub": "de trading"
+            "btnText": "Optimización de",
+            "btnSub": "Presupuesto",
+            "title": "Ajustes y Directrices para Mejorar Sus Finanzas",
+            "subtitle": "Definimos directrices para cada área de su vida financiera e implementamos los ajustes necesarios para alcanzar sus objetivos. Nuestro enfoque es reducir las deudas, si las hay, y minimizar su impacto financiero. Con la optimización del presupuesto, ayudamos a garantizar que sus finanzas siempre estén bajo control."
           },
           "fourth": {
-            "btnText": "Transparencia",
-            "btnSub": "de costos"
+            "btnText": "Inversiones",
+            "btnSub": "Inteligentes",
+            "title": "Elección de Inversiones Alineadas con Sus Metas",
+            "subtitle": "Le orientamos en la elección de inversiones que estén alineadas con sus metas financieras. Nuestro objetivo es garantizar la protección de su capital, buscando igualar o superar el rendimiento del CDI. Con las inversiones inteligentes de Flizbar, puede invertir con seguridad y alcanzar sus objetivos financieros a largo plazo."
           }
         }
       },

@@ -5,6 +5,7 @@ import "./globals.css";
 import { getDictionary } from "@/lib/dictionary";
 import DictionaryProvider from "./dictionary-provider";
 import { CookiesProvider } from "next-client-cookies/server";
+import Logo from "../../assets/icon-mark.png";
 
 const inter = Inter({ subsets: ["latin"] });
 const raleway = Raleway({ subsets: ["latin"] });
@@ -29,6 +30,7 @@ export default async function RootLayout({
   return (
     <html lang={params.lang}>
       <body className={raleway.className}>
+        <link rel="icon" href={Logo.src} sizes="any" />
         <CookiesProvider>
           <DictionaryProvider dictionary={dictionary}>
             <main>{children}</main>
