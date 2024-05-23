@@ -1,10 +1,12 @@
 import React from "react";
 import moneyIcon from "../../../assets/money-frame.png";
 import Image from "next/image";
-import { highBenefits, privateBenefits, traderBenefits, ultraHighBenefits } from "./constants";
 import OpenAccButton from "@/components/OpenAccButton/OpenAccButton";
 import CheckList from "@/components/CheckList/CheckList";
 import Star from "../../../assets/material-symbols_star.png";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 interface PlanDetailsProps {
   languages: any;
@@ -12,20 +14,6 @@ interface PlanDetailsProps {
 }
 
 export default function PlansDetails({ languages, plan }: PlanDetailsProps) {
-  const PlansDetails = {
-    trader: traderBenefits,
-    high: highBenefits,
-    private: privateBenefits,
-    ultraHigh: ultraHighBenefits,
-  };
-
-  const PlansCustody = {
-    trader: "custódia até R$ 300 mil",
-    high: "custódia até entre R$ 300 mil e R$ 1 milhão",
-    private: "custódia até entre R$ 1 milhão e R$ 5 milhões",
-    ultraHigh: "custódia acima de R$ 5 milhões",
-  };
-
   const plansLanguages = languages.page.default.plans;
 
   return (
@@ -60,7 +48,7 @@ export default function PlansDetails({ languages, plan }: PlanDetailsProps) {
           </div>
         )}
       </div>
-      <p className="flex w-full items-center gap-2 text-[#C89305] mt-2 mb-4">
+      <p className={`flex w-full items-center gap-2 text-[#C89305] mt-2 mb-4 ${inter.className}`}>
         <Image className="h-[18px]" src={moneyIcon.src} height={1} width={18} alt="icon" /> {plansLanguages.plansCustody[plan]}
       </p>
       <CheckList items={plansLanguages.plansDetails[plan]} />

@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import PlansDetails from "./PlansDetails";
 import Image from "next/image";
 import Star from "../../../assets/material-symbols_star.png";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 interface PlanType {
   trader: boolean;
@@ -16,13 +19,12 @@ export default function PlansCard({ languages }: { languages: any }) {
   const [plan, setPlan] = useState<"trader" | "high" | "private" | "ultraHigh">("trader");
 
   const plansLanguages = languages.page.default.plans;
-  console.log(plansLanguages);
 
   return (
-    <div>
+    <div className="mt-12">
       <p className="text-[#C89305] font-bold text-[14px] mt-4">{plansLanguages.initialText}</p>
       <p className="text-[32px] md:text-[40px] max-w-[590px] my-[16px] leading-[55px]">{plansLanguages.title}</p>
-      <p className="text-[16px] md:text-[18px] max-w-[619px] font-light mb-[60px]">{plansLanguages.subtitle}</p>
+      <p className={`text-[16px] md:text-[18px] max-w-[619px] font-light mb-[60px] ${inter.className}`}>{plansLanguages.subtitle}</p>
 
       <div className="flex flex-col md:flex-row gap-x-[32px]">
         <div className="flex md:flex-col gap-y-[24px] md:max-w-[384px] w-full overflow-auto">

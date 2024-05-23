@@ -23,22 +23,28 @@
         "subtitle": "Why choose Flizbar?",
         "menu": {
           "first": {
-            "btnText": "Specialists in",
-            "btnSub": "Variable Income",
-            "title": "Don't leave your financial future to chance.",
-            "subtitle": "Our team consists of specialists in variable income, accumulating over 30 years of experience in the market. When it comes to investment, we are the ultimate choice. Trust Flizbar's expertise to guide you in pursuit of the best financial outcomes."
+            "btnText": "Financial",
+            "btnSub": "Assessment",
+            "title": "Comprehensive Analysis of Your Financial Situation",
+            "subtitle": "At Flizbar, we start with a comprehensive analysis of your current financial situation. This includes evaluating your income, expenses, debts, investments, goals, and targets. Understanding your financial position in detail is the first step to creating an effective and sustainable plan."
           },
           "second": {
             "btnText": "Personalized",
-            "btnSub": "customer service"
+            "btnSub": "Action Plan",
+            "title": "Detailed and Personalized Strategy for Your Finances",
+            "subtitle": "Based on the financial assessment, we create a personalized action plan that details all your variable expenses, fixed costs, and outstanding debts. This plan is tailored to your specific needs, ensuring that all areas of your finances are covered and directed towards achieving your goals."
           },
           "third": {
-            "btnText": "Exclusive",
-            "btnSub": "trading rooms"
+            "btnText": "Budget",
+            "btnSub": "Optimization",
+            "title": "Adjustments and Guidelines to Improve Your Finances",
+            "subtitle": "We set guidelines for each area of your financial life and implement necessary adjustments to achieve your goals. Our focus is to reduce debts, if any, and minimize their financial impact. With budget optimization, we help ensure that your finances are always under control."
           },
           "fourth": {
-            "btnText": "Cost",
-            "btnSub": "transparency"
+            "btnText": "Smart",
+            "btnSub": "Investments",
+            "title": "Investment Choices Aligned with Your Goals",
+            "subtitle": "We guide you in choosing investments that are aligned with your financial goals. Our aim is to protect your capital while seeking to match or exceed the performance of the CDI. With Flizbar's smart investments, you can invest with confidence and achieve your long-term financial goals."
           }
         }
       },
