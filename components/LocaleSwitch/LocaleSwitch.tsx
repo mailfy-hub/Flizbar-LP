@@ -35,6 +35,8 @@ export default function LocaleSwitch({ lang, languages }: { lang: Locale; langua
     return false;
   }, [size]);
 
+  console.log("");
+
   const handleSelect = (newLocale: Locale) => {
     cookies.set("selectedLocale", newLocale);
     cookies.set("language", languagesTitles[newLocale]);
