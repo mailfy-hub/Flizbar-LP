@@ -16,7 +16,7 @@ export default function Header({ lang, languages, btn }: { lang: Locale; languag
   };
 
   return (
-    <header className="py-6 bg-transparent w-full">
+    <header className="py-6 bg-transparent w-full mb-12">
       <nav className="container flex items-center justify-between w-full">
         <div className="flex items-center gap-x-[48px] md:gap-x-[22px] xl:gap-x-[48px] justify-between">
           <a className="min-w-[125px] h-[32px]" href="#" style={{ backgroundImage: `url(${logo.src})` }}></a>
