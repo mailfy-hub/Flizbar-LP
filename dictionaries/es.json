@@ -1,8 +1,8 @@
 {
   "header": {
     "beginning": "Inicio",
-    "advantages": "Ventajas",
-    "getToKnow": "Conoce Flizbar",
+    "services": "Servicios",
+    "about": "Acerca de Flizbar",
     "plans": "Planes",
     "contact": "Contacto",
     "client": "Ya soy cliente",
@@ -18,9 +18,31 @@
         "presentation": "Somos su hogar cuando se trata de",
         "presentationSpan": "inversión en renta variable."
       },
-      "advantages": {
-        "title": "LA ELECCIÓN CORRECTA",
-        "subtitle": "Por qué elegir Flizbar?",
+      "moreThanNumbers": {
+        "title": "Más que números",
+        "imgAlt": "Más que números",
+        "block": {
+          "first": {
+          "title": "Proteccion",
+          "text": "La seguridad primero, segundo y tercero"
+          },
+          "second": {
+          "title": "Consistencia",
+          "text": "Avance sólido sin altibajos"
+          },
+          "third": {
+          "title": "Crecimiento",
+          "text": "Avance sólido sin altibajos"
+          },
+          "fourth": {
+          "text": "Un reflejo de nuestra excelencia en el servicio con total orientación al cliente.",
+          "link": "Crea una cuenta"
+          }
+        }
+ },
+      "about": {
+        "title": "ACERCA DE FLIZBAR",
+        "subtitle": "Descubra más sobre nosotros",
         "menu": {
           "first": {
             "btnText": "Evaluación",

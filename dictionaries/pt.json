@@ -1,9 +1,8 @@
 {
   "header": {
     "beginning": "Início",
-    "advantages": "Vantagens",
-    "getToKnow": "Conheça a Flizbar",
-    "plans": "Planos",
+    "services": "Serviços",
+    "about": "A Flizbar",
     "contact": "Contato",
     "client": "Já sou cliente",
     "buttonTxt": "Abra sua conta agora",
@@ -12,16 +11,38 @@
   "page": {
     "default": {
       "beginning": {
-        "openAcc": "Abra uma conta e faça seu dinheiro render",
+        "openAcc": "Proteção. Consistência. Crescimento",
         "title": "Somos seu parceiro de investimentos.",
         "text": "Descubra a maneira mais inteligente de gerir seus investimentos com a Flizbar. Oferecemos um pacote completo de ferramentas e especialistas prontos para guiá-lo em cada etapa da sua jornada de investimento.",
-        "button": "Abra sua conta agora",
+        "button": "Faça seu login",
         "presentation": "Somos a sua casa quando o assunto é",
         "presentationSpan": "renda variável."
       },
-      "advantages": {
-        "title": "A ESCOLHA CERTA",
-        "subtitle": "Por que escolher a Flizbar?",
+      "moreThanNumbers": {
+        "title": "Mais do que números",
+        "imgAlt": "Mais do que números",
+        "block": {
+          "first": {
+            "title": "Proteção",
+            "text": "Segurança em primeiro, segundo e terceiro lugar"
+          },
+          "second": {
+            "title": "Consistência",
+            "text": "Avanço sólido sem altos e baixos"
+          },
+          "third": {
+            "title": "Crescimento",
+            "text": "Avanço sólido sem altos e baixos"
+          },
+          "fourth": {
+            "text": "Um reflexo da nossa excelência em atendimento com foco total no cliente.",
+            "link": "Criar uma conta"
+          }
+        }
+      },
+      "about": {
+        "title": "SOBRE A FLIZBAR",
+        "subtitle": "Conheça mais sobre nós",
         "menu": {
           "first": {
             "btnText": "Avaliação",
@@ -63,72 +84,6 @@
         "thirdCardText": "Estamos comprometidos em oferecer serviços de longo prazo para nossos clientes, sempre buscando as melhores alternativas para preservação e crescimento patrimonial.",
         "thirdCardSecondText": "Somos inquietos e inovadores, e buscamos traduzir isso em soluções para você. Mas, mais importante ainda, estamos comprometidos com você e com o seu sucesso financeiro.",
         "lastText": "Pronto para transformar sua maneira de investir? Conte conosco."
-      },
-      "plans": {
-        "initialText": "PLANOS",
-        "title": "Escolha o seu plano de investimento ideal",
-        "subtitle": "Independente do tamanho do seu patrimônio, oferecemos uma gama de serviços exclusivos para atender às suas necessidades.",
-        "plan": "Plano",
-        "plansTitles": {
-          "trader": "Trader",
-          "high": "Alta Renda",
-          "private": "Private",
-          "ultraHigh": "Ultra High"
-        },
-        "plansCustody": {
-          "trader": "custódia até R$ 300 mil",
-          "high": "custódia até entre R$ 300 mil e R$ 1 milhão",
-          "private": "custódia até entre R$ 1 milhão e R$ 5 milhões",
-          "ultraHigh": "custódia acima de R$ 5 milhões"
-        },
-        "plansDetails": {
-          "trader": [
-            "Transparência de custos",
-            "Atendimento ágil e humanizado",
-            "Plataforma de negociações grátis",
-            "Acesso a conteúdos sobre Renda Variável",
-            "Envio de ordens via WhatsApp com operador experiente",
-            "Modelo de assessoria dedicada ao Trader"
-          ],
-          "high": [
-            "Transparência de custos",
-            "Atendimento ágil e humanizado",
-            "Plataforma de negociações grátis",
-            "Acesso a conteúdos sobre Renda Variável",
-            "Envio de ordens via WhatsApp com operador experiente",
-            "Assessoria via WhatsApp",
-            "Reunião mensal com assessor exclusivo",
-            "Live mensal de análise com especialista de mercado"
-          ],
-          "private": [
-            "Transparência de custos",
-            "Atendimento ágil e humanizado",
-            "Plataforma de negociações grátis",
-            "Acesso a conteúdos sobre Renda Variável",
-            "Assessoria completa por WhatsApp e telefone 24/7",
-            "Monitoramento ativo do risco da sua carteira de investimentos",
-            "Anuidade gratuita do Trading Floor",
-            "Calculadora de IR grátis",
-            "Reunião mensal com assessor exclusivo",
-            "Live mensal de análise com especialista de mercado",
-            "Assessoria tributária em renda variável",
-            "Apoio educacional e estratégico sobre investimentos"
-          ],
-          "ultraHigh": [
-            "Transparência de custos",
-            "Atendimento ágil e humanizado",
-            "Plataforma de negociações grátis",
-            "Acesso a conteúdos sobre Renda Variável",
-            "Assessoria completa por WhatsApp e telefone 24/7",
-            "Monitoramento ativo do risco da sua carteira de investimentos",
-            "Anuidade gratuita do Trading Floor",
-            "Calculadora de IR grátis",
-            "Reunião mensal com assessor exclusivo",
-            "Live mensal de análise com especialista de mercado",
-            "Assessoria tributária em renda variável",
-            "Apoio educacional e estratégico sobre investimentos"
-          ]
-        }
       },
       "contact": {
         "topText": "Participe de nossa lista vip",

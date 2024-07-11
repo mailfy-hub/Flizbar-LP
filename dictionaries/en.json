@@ -1,8 +1,8 @@
 {
   "header": {
     "beginning": "Beginning",
-    "advantages": "Advantages",
-    "getToKnow": "Get to Know Flizbar",
+    "services": "Services",
+    "about": "About Flibar",
     "plans": "Plans",
     "contact": "Contact",
     "client": "I am client",
@@ -18,9 +18,31 @@
         "presentation": "We are your home when it comes to",
         "presentationSpan": "equity investment."
       },
-      "advantages": {
-        "title": "THE RIGHT CHOICE",
-        "subtitle": "Why choose Flizbar?",
+      "moreThanNumbers": {
+        "title": "More than numbers",
+        "imgAlt": "More than numbers",
+        "block": {
+          "first": {
+          "title": "Protection",
+          "text": "Safety first, second and third"
+          },
+          "second": {
+          "title": "Consistency",
+          "text": "Solid advancement without ups and downs"
+          },
+          "third": {
+          "title": "Growth",
+          "text": "Solid advancement without ups and downs"
+          },
+          "fourth": {
+          "text": "A reflection of our excellence in service with total customer focus.",
+          "link": "Create an account"
+          }
+        }
+ },
+      "about": {
+        "title": "ABOUT FLIZBAR",
+        "subtitle": "Find out more about us",
         "menu": {
           "first": {
             "btnText": "Financial",
