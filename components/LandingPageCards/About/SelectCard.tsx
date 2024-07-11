@@ -7,7 +7,7 @@ interface SelectCardProps {
   onClick: () => void;
 }
 
-export default function SelectCard({
+export default function AboutCard({
   title,
   subtitle,
   selected,
