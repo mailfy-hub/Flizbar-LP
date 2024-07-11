@@ -40,33 +40,29 @@
           }
         }
  },
-      "about": {
+"about": {
         "title": "ACERCA DE FLIZBAR",
-        "subtitle": "Descubra más sobre nosotros",
+        "subtitle": "Más información sobre nosotros",
+        "text": "En Flizbar, estamos comprometidos a transformar la forma en que aborda sus inversiones. Combinando tecnología de vanguardia y la experiencia de nuestros expertos en acciones, ofrecemos soluciones integrales para simplificar y mejorar sus recursos financieros.",
         "menu": {
           "first": {
-            "btnText": "Evaluación",
-            "btnSub": "Financiera",
-            "title": "Análisis Completo de Su Situación Financiera",
-            "subtitle": "En Flizbar, comenzamos con un análisis integral de su situación financiera actual. Esto incluye la evaluación de sus ingresos, gastos, deudas, inversiones, objetivos y metas. Comprender detalladamente su posición financiera es el primer paso para crear un plan eficaz y sostenible."
+            "title": "Quiénes somos",
+            "textFirst": "Con más de 30 años de experiencia en acciones, nuestro equipo aporta una gran cantidad de conocimientos y perspectivas.",
+            "textSecond": "Nuestros fundadores, analistas y asesores son profesionales de renombre en el campo y han dedicado sus vidas a comprender los mercados y las personas que invierten en ellos"
           },
           "second": {
-            "btnText": "Plan de Acción",
-            "btnSub": "Personalizado",
-            "title": "Estrategia Detallada y Personalizada para Sus Finanzas",
-            "subtitle": "Basándonos en la evaluación financiera, creamos un plan de acción personalizado que detalla todos sus gastos variables, costos fijos y deudas pendientes. Este plan se adapta a sus necesidades específicas, asegurando que todas las áreas de sus finanzas estén cubiertas y dirigidas a alcanzar sus objetivos."
+            "title": "Nuestra misión",
+            "textFirst": "La misión de Flizbar es clara: brindar un servicio excepcional y transparente que ayude a los inversores a alcanzar sus objetivos financieros, ya sea un operador principiante o un inversor de altos ingresos.",
+            "textSecond": "Asegurándonos de que realmente puedas disfrutar de tu libertad financiera."
           },
           "third": {
-            "btnText": "Optimización de",
-            "btnSub": "Presupuesto",
-            "title": "Ajustes y Directrices para Mejorar Sus Finanzas",
-            "subtitle": "Definimos directrices para cada área de su vida financiera e implementamos los ajustes necesarios para alcanzar sus objetivos. Nuestro enfoque es reducir las deudas, si las hay, y minimizar su impacto financiero. Con la optimización del presupuesto, ayudamos a garantizar que sus finanzas siempre estén bajo control."
+            "title": "Nuestros valores",
+            "textFirst": "Estamos comprometidos a ofrecer servicios a largo plazo a nuestros clientes, buscando siempre las mejores alternativas para la preservación y crecimiento del patrimonio.",
+            "textSecond": "Somos inquietos e innovadores, y buscamos traducir esto en soluciones para usted. Pero lo más importante es que estamos comprometidos con usted y su éxito financiero."
           },
           "fourth": {
-            "btnText": "Inversiones",
-            "btnSub": "Inteligentes",
-            "title": "Elección de Inversiones Alineadas con Sus Metas",
-            "subtitle": "Le orientamos en la elección de inversiones que estén alineadas con sus metas financieras. Nuestro objetivo es garantizar la protección de su capital, buscando igualar o superar el rendimiento del CDI. Con las inversiones inteligentes de Flizbar, puede invertir con seguridad y alcanzar sus objetivos financieros a largo plazo."
+            "text": "¿Listo para transformar la forma de invertir? Cuente con nosotros.",
+            "btnText": "Abre tu cuenta ahora"
           }
         }
       },

@@ -42,31 +42,27 @@
  },
       "about": {
         "title": "ABOUT FLIZBAR",
-        "subtitle": "Find out more about us",
+        "subtitle": "Learn more about us",
+        "text": "At Flizbar, we are committed to transforming the way you approach your investments. Combining cutting-edge technology and the expertise of our equity experts, we offer comprehensive solutions to simplify and enhance your financial resources.",
         "menu": {
           "first": {
-            "btnText": "Financial",
-            "btnSub": "Assessment",
-            "title": "Comprehensive Analysis of Your Financial Situation",
-            "subtitle": "At Flizbar, we start with a comprehensive analysis of your current financial situation. This includes evaluating your income, expenses, debts, investments, goals, and targets. Understanding your financial position in detail is the first step to creating an effective and sustainable plan."
+            "title": "Who we are",
+            "textFirst": "With over 30 years of experience in equity, our team brings a wealth of knowledge and insights to the table.",
+            "textSecond": "Our founders, analysts and advisors are renowned professionals in the field and have dedicated their lives to understanding the markets and the people who invest in them."
           },
           "second": {
-            "btnText": "Personalized",
-            "btnSub": "Action Plan",
-            "title": "Detailed and Personalized Strategy for Your Finances",
-            "subtitle": "Based on the financial assessment, we create a personalized action plan that details all your variable expenses, fixed costs, and outstanding debts. This plan is tailored to your specific needs, ensuring that all areas of your finances are covered and directed towards achieving your goals."
+            "title": "Our mission",
+            "textFirst": "Flizbar's mission is clear: to provide an exceptional, transparent service that helps investors achieve their financial goals, whether you are a beginning trader or a high-income investor.",
+            "textSecond": "Making sure you can truly enjoy your financial freedom."
           },
           "third": {
-            "btnText": "Budget",
-            "btnSub": "Optimization",
-            "title": "Adjustments and Guidelines to Improve Your Finances",
-            "subtitle": "We set guidelines for each area of your financial life and implement necessary adjustments to achieve your goals. Our focus is to reduce debts, if any, and minimize their financial impact. With budget optimization, we help ensure that your finances are always under control."
+            "title": "Our values",
+            "textFirst": "We are committed to offering long-term services to our clients, always seeking the best alternatives for heritage preservation and growth.",
+            "textSecond": "We are restless and innovative, and we seek to translate this into solutions for you. But most importantly, we are committed to you and your financial success."
           },
           "fourth": {
-            "btnText": "Smart",
-            "btnSub": "Investments",
-            "title": "Investment Choices Aligned with Your Goals",
-            "subtitle": "We guide you in choosing investments that are aligned with your financial goals. Our aim is to protect your capital while seeking to match or exceed the performance of the CDI. With Flizbar's smart investments, you can invest with confidence and achieve your long-term financial goals."
+            "text": "Ready to transform the way you invest? Count on us.",
+            "btnText": "Open your account now"
           }
         }
       },
