@@ -52,7 +52,7 @@ export default function AboutCard({ languages }: { languages: any }) {
         <h1 className="text-3xl font-bold text-center mx-80">
           {about.menu.fourth.text}
         </h1>
-        <button className="flex  items-center bg-custom-orange hover:bg-custom-orange text-white font-bold py-2 px-4 rounded">
+        <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded">
           {about.menu.fourth.btnText}
           <svg
             className="ml-2 h-4 w-4"

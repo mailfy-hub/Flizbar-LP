@@ -57,7 +57,7 @@
           },
           "third": {
             "title": "Nossos valores",
-            "textFirst": " Estamos comprometidos em oferecer serviços de longo prazo para nossos clientes, sempre buscando as melhores alternativas para preservação e crescimento patrimonial.",
+            "textFirst": "Estamos comprometidos em oferecer serviços de longo prazo para nossos clientes, sempre buscando as melhores alternativas para preservação e crescimento patrimonial.",
             "textSecond": "Somos inquietos e inovadores, e buscamos traduzir isso em soluções para você. Mas, mais importante ainda, estamos comprometidos com você e com o seu sucesso financeiro."
           },
           "fourth": {
@@ -65,6 +65,12 @@
             "btnText": "Abra sua conta agora"
           }
         }
+      },
+      "journey": {
+        "title": "Uma jornada de mil quilômetros precisa começar com",
+        "titleStrong": " um simples passo.",
+        "text": "A Flizbar tornou-se um hedge fund em 2021, após 18 anos de experiência no mercado financeiro do seu principal gestor. O grupo foi criado com foco em investidores qualificados e empresas parceiras, seu principal objetivo é alinhar crescimento e risco de maneira sustentável. Nossos especialistas contribuem para a geração de riqueza com informações necessárias e categóricas.",
+        "button": "Abra sua conta agora"
       },
       "know": {
         "title": "SOBRE A FLIZBAR",
