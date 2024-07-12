@@ -11,6 +11,7 @@ import bg from "../../assets/background_hero.png";
 import { useDictionary } from "./dictionary-provider";
 import AboutCard from "@/components/LandingPageCards/About/AboutCard";
 import Journey from "@/components/LandingPageCards/Journey/Journey";
+import ServicesCard from "@/components/LandingPageCards/ServicesCard/ServicesCard";
 
 export default function Page({
   params: { lang },
@@ -57,6 +58,14 @@ export default function Page({
         <div id="journey">
           <div className="w-full max-w-[1216px] mx-auto">
             <Journey languages={dictionary} />
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col mt-[124px] py-[72px] bg-[#1E1C1B] ">
+        <div id="services">
+          <div className="w-full max-w-[1200px] mx-auto">
+            <ServicesCard languages={dictionary} />
           </div>
         </div>
       </div>

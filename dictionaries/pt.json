@@ -87,6 +87,45 @@
         "thirdCardSecondText": "Somos inquietos e inovadores, e buscamos traduzir isso em soluções para você. Mas, mais importante ainda, estamos comprometidos com você e com o seu sucesso financeiro.",
         "lastText": "Pronto para transformar sua maneira de investir? Conte conosco."
       },
+      "services": {
+        "title": "Serviços",
+        "subtitle": "Conheça nossos serviços",
+        "button": "Abra sua conta agora",
+        "menu": {
+          "first": {
+            "title": "Tesouraria",
+            "text": "São títulos das dívidas dos países. Considerados os investimentos em renda fixa mais seguros de qualquer país devido a capacidade do governo de “rolar a dívida”, ou seja, diferente de pessoas o governo consegue (de acordo com a sua credibilidade no mercado, dentre outros fatores) realizar novos empréstimos para cobrir os antigos sempre que houver necessidade, caso dos EUA por exemplo que tem uma dívida de mais de 20 trilhões de dólares que aumenta sempre que necessário"
+          },
+          "second": {
+            "title": "Commodities",
+            "text": "São produtos não industrializados, tais como: trigo; soja, açúcar; algodão; petróleo; ouro entre outros, que acabam tendo a mesma finalidade de consumo independente do país de origem destes produtos, sendo assim seu preço é o mesmo em qualquer parte do mundo através da oferta e demanda global"
+          },
+          "third": {
+            "title": "Ações",
+            "text": "É uma parte do capital social de uma empresa, seu portador em certa medida se torna sócio da empresa a qual a ação pertence, é um meio utilizado normalmente para alavancar o crescimento de uma empresa que com a venda de ações muitas vezes aplica o capital ganho para aumentar suas operações, capacidade, qualidade etc."
+          },
+          "fourth": {
+            "title": "Opções",
+            "text": "São ferramentas utilizadas no mercado acionário para proteger aplicações financeiras e até mesmo expandir seus lucros, sua proposta é minimizar riscos, uma vez que as opções garantem um preço de compra ou de venda de uma ação no futuro."
+          },
+          "fifth": {
+            "title": "Índices",
+            "text": "São instrumentos que reúnem as principais ações de empresas listadas nas bolsas de valores, seja por, tamanho, área de atuação, setor etc. são utilizados para se acompanhar o movimento da bolsa ou da área analisada para apontar a direção para onde estão se deslocando as empresas, seja alta ou baixa"
+          },
+          "sixth": {
+            "title": "ETF",
+            "text": "Exchange Traded Fund, são fundos de investimentos que replicam o resultado da área escolhida, seja em renda variável ou renda fixa. Não há tomadas de decisões por parte dos gestores, apenas a cópia idêntica do resultado de um conjunto de ativos. Muito utilizado para facilitar os investimentos em diversos ativos com taxas mais baixas."
+          },
+          "seventh": {
+            "title": "CFD",
+            "text": "Contract For Difference, é um instrumento financeiro utilizado para investimento em ações, commodities e diversos outros mercados, sem a necessidade de deter os ativos, utilizado em grande escala por suaalavancagem e liquidez (24h por dia)"
+          },
+          "eighth": {
+            "title": "Mercado do futuro",
+            "text": "Ferramentas utilizadas para proteção do preço do ativo. Garantem a venda ou compra de algum ativo físico para liquidação financeira, evitando assim prejuízo para produtores de bens para consumo ou outros fins que podem antecipar seus preços e terem assim uma previsibilidade que facilita o planejamento."
+          }
+        }
+      },
       "contact": {
         "topText": "Participe de nossa lista vip",
         "title": "Receba novidades",

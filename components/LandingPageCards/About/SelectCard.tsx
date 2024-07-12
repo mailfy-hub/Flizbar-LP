@@ -2,14 +2,14 @@ import ArrowRight from "@/components/ArrowRight/ArrowRight";
 
 interface SelectCardProps {
   title: string;
-  subtitle: string;
+  // subtitle: string;
   selected: boolean;
   onClick: () => void;
 }
 
 export default function AboutCard({
   title,
-  subtitle,
+  // subtitle,
   selected,
   onClick,
 }: SelectCardProps) {
@@ -24,9 +24,9 @@ export default function AboutCard({
     >
       <p className="flex flex-col max-w-[162px] text-[20px]">
         {title}
-        <p className={`${selected ? "text-[#C89305]" : "text-white"}`}>
+        {/* <p className={`${selected ? "text-[#C89305]" : "text-white"}`}>
           {subtitle}
-        </p>
+        </p> */}
       </p>
       <ArrowRight />
     </div>

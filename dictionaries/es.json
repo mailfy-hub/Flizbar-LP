@@ -153,6 +153,45 @@
           ]
         }
       },
+      "services": {
+        "title": "Servicios",
+        "subtitle": "Descubra nuestros servicios",
+        "button": "Abre tu cuenta ahora",
+        "menu": {
+          "first": {
+            "title": "Tesorería",
+            "text": "Estos son títulos de deuda de los países. Consideradas las inversiones de renta fija más seguras de cualquier país debido a la capacidad del gobierno de “refinanciar la deuda”, es decir, a diferencia de las personas, el gobierno puede (según su credibilidad en el mercado, entre otros factores) conceden nuevos préstamos para cubrir los antiguos cuando es necesario, como en el caso de EE.UU., por ejemplo, que tiene una deuda de más de 20 billones de dólares que aumenta cuando es necesario"
+          },
+          "second": {
+            "title": "Productos básicos",
+            "text": "Son productos no industrializados, tales como: trigo; soja, azúcar; algodón; petróleo; oro, entre otros, que terminan teniendo el mismo fin de consumo independientemente del país de origen de estos productos, por lo que su El precio es el mismo en cualquier parte del mundo a través de la oferta y la demanda global."
+          },
+          "third": {
+            "title": "Acciones",
+            "text": "Es una parte del capital social de una empresa, su titular en cierta medida se convierte en socio de la empresa a la que pertenece la acción, es un medio normalmente utilizado para apalancar el crecimiento de una empresa que, con la venta de acciones, muchas veces aplica el capital obtenido para aumentar sus operaciones, capacidad, calidad, etc."
+          },
+          "fourth": {
+            "title": "Opciones",
+            "text": "Son herramientas utilizadas en el mercado de valores para proteger las inversiones financieras e incluso ampliar las ganancias. Su finalidad es minimizar los riesgos, ya que las opciones garantizan un precio de compra o venta de una acción en el futuro."
+          },
+          "fifth": {
+            "title": "Índices",
+            "text": "Son instrumentos que agrupan las principales acciones de las empresas que cotizan en las bolsas de valores, ya sea por tamaño, área de actividad, sector, etc. Se utilizan para seguir el movimiento de la bolsa o de la zona analizados para señalar la dirección hacia donde se están moviendo las empresas, ya sea hacia arriba o hacia abajo"
+          },
+          "sixth": {
+            "title": "ETF",
+            "text": "Exchange Traded Fund, son fondos de inversión que replican los resultados del área elegida, ya sea en renta variable o renta fija. No hay toma de decisiones por parte de los administradores, solo la copia idéntica del resultado de un conjunto de activos Ampliamente utilizado para facilitar las inversiones en diversos activos con tasas más bajas"
+          },
+          "seventh": {
+            "title": "CFD",
+            "text": "Contrato por Diferencia, es un instrumento financiero utilizado para invertir en acciones, materias primas y otros mercados diversos, sin necesidad de mantener los activos, utilizado a gran escala por su apalancamiento y liquidez (24 horas al día)"
+          },
+          "eighth": {
+            "title": "Mercado del futuro",
+            "text": "Herramientas utilizadas para proteger el precio del activo. Garantizan la venta o compra de algún activo físico para su liquidación financiera, evitando así pérdidas a los productores de bienes de consumo u otros fines que puedan anticipar sus precios y así tener un previsibilidad que facilita la planificación"
+          }
+        }
+      },
       "contact": {
         "topText": "Únete a nuestra lista VIP",
         "title": "Recibe novedades",

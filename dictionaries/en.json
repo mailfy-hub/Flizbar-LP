@@ -153,6 +153,45 @@
           ]
         }
       },
+      "services": {
+        "title": "Services",
+        "subtitle": "Discover our services",
+        "button": "Open your account now",
+        "menu": {
+          "first": {
+            "title": "Treasury",
+            "text": "These are countries' debt securities. Considered the safest fixed income investments of any country due to the government's ability to “roll over the debt”, that is, unlike people, the government can (according to its credibility in the market, among other factors) make new loans to cover old ones whenever necessary, as in the case of the USA, for example, which has a debt of more than 20 trillion dollars that increases whenever necessary"
+          },
+          "second": {
+            "title": "Commodities",
+            "text": "These are non-industrialized products, such as: wheat; soybeans, sugar; cotton; oil; gold, among others, which end up having the same consumption purpose regardless of the country of origin of these products, so their price is the same anywhere in the world through global supply and demand"
+          },
+          "third": {
+            "title": "Actions",
+            "text": "It is a part of the share capital of a company, its holder to a certain extent becomes a partner of the company to which the share belongs, it is a means normally used to leverage the growth of a company that, with the sale of shares, many Sometimes it applies the capital gained to increase its operations, capacity, quality, etc."
+          },
+          "fourth": {
+            "title": "Options",
+            "text": "These are tools used in the stock market to protect financial investments and even expand profits. Their purpose is to minimize risks, since options guarantee a purchase or sale price for a share in the future."
+          },
+          "fifth": {
+            "title": "Indices",
+            "text": "These are instruments that bring together the main shares of companies listed on the stock exchanges, whether by size, area of ​​activity, sector, etc. They are used to monitor the movement of the stock exchange or the area analyzed to point out the direction for where companies are moving, whether high or low"
+          },
+          "sixth": {
+            "title": "ETF",
+            "text": "Exchange Traded Fund, are investment funds that replicate the results of the chosen area, whether in variable income or fixed income. There is no decision making on the part of managers, just the identical copy of the result of a set of assets . Widely used to facilitate investments in various assets with lower rates."
+          },
+          "seventh": {
+            "title": "CFD",
+            "text": "Contract For Difference, is a financial instrument used to invest in shares, commodities and various other markets, without the need to hold the assets, used on a large scale for its leverage and liquidity (24 hours a day)"
+          },
+          "eighth": {
+            "title": "Market of the future",
+            "text": "Tools used to protect the price of the asset. They guarantee the sale or purchase of some physical asset for financial settlement, thus avoiding losses for producers of goods for consumption or other purposes that can anticipate their prices and thus have a predictability that makes planning easier."
+          }
+        }
+      },
       "contact": {
         "topText": "Join our VIP list",
         "title": "Receive updates",
