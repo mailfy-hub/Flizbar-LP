@@ -33,7 +33,7 @@ export default function Header({
             style={{ backgroundImage: `url(${logo.src})` }}
           ></a>
 
-          <div className="hidden md:flex items-center gap-x-[24px] md:gap-x-[10px] 2xl:gap-x-[24px] mt-2 text-[16px] md:text-[12px] xl:text-[16px]">
+          <div className="hidden md:flex items-center gap-x-[24px] md:gap-x-[10px] 2xl:gap-x-[48px] mt-2 text-[16px] md:text-[12px] xl:text-[16px]">
             <a href="#beginning">{languages.beginning}</a>
             <a href="#services">{languages.services}</a>
             <a href="#about">{languages.about}</a>
@@ -63,7 +63,7 @@ export default function Header({
       </nav>
       {open ? (
         <div className="md:hidden relative z-50 w-full">
-          <div className="flex flex-col items-center gap-2 bg-[#0C0B0A] ox-2 pt-2 pb-3 space-y-1 sm:px-3 absolute top-0 right-1 w-full">
+          <div className="flex flex-col items-center gap-2 bg-[#0C0B0A] ox-2 pt-2 pb-3 space-y-1 sm:px-3 absolute top-0 right-2 w-full">
             <a href="#beginning">{languages.beginning}</a>
             <a href="#advantages">{languages.advantages}</a>
             <a href="#know">{languages.getToKnow}</a>
