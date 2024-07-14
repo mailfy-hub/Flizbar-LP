@@ -19,7 +19,7 @@ export default function Journey({ languages }: { languages: any }) {
             />
           </div>
           <div className="md:w-1/2">
-            <h1 className="text-4xl md:text-6xl  mb-4">
+            <h1 className="text-[40px] md:text-6xl  mb-4">
               &quot;{journey.title}
               <strong>{` ${journey.titleStrong}`}</strong>&quot;
             </h1>
