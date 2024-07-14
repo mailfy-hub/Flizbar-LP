@@ -4,6 +4,7 @@ import Image from "next/image";
 import OpenAccButton from "@/components/OpenAccButton/OpenAccButton";
 import img from "../../../assets/frame373.png";
 import { Inter } from "next/font/google";
+import image373 from "../../../assets/Frame 373.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +31,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
           {services.subtitle}
         </p>
       </div>
-      <div className="flex w-full h-[100px] bg-[#161412] mb-8 md:mb-4 overflow-x-auto">
+      <div className="flex w-full h-[100px]  mb-8 md:mb-4 overflow-x-auto">
         <SelectCard
           title={services.menu.first.title}
           // subtitle="teste subtitulo"
@@ -83,226 +84,250 @@ export default function ServicesCard({ languages }: { languages: any }) {
       <div className="flex flex-col-reverse md:flex-row w-full lg:justify-between 2xl:mt-[100px]">
         <div className="flex flex-col 2xl:justify-between">
           {selectedCard === "first-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.first.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.first.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.first.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.first.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "second-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.second.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.second.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.second.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.second.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "third-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.third.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.third.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.third.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.third.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "fourth-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.fourth.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.fourth.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.fourth.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.fourth.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "fifth-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.fifth.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.fifth.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.fifth.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.fifth.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "sixth-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.sixth.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.sixth.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.sixth.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.sixth.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "seventh-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.seventh.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.seventh.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.seventh.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.seventh.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
 
           {selectedCard === "eighth-card" && (
-            <div>
-              <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
-                {services.menu.eighth.title}
-              </p>
-              <p
-                className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
-              >
-                {services.menu.eighth.text}
-              </p>
-              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                {services.button}
-                <svg
-                  className="ml-2 h-4 w-4"
-                  xmlns=""
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+            <div className="flex">
+              <div className="mr-24">
+                <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
+                  {services.menu.eighth.title}
+                </p>
+                <p
+                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              </button>
+                  {services.menu.eighth.text}
+                </p>
+                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                  {services.button}
+                  <svg
+                    className="ml-2 h-4 w-4"
+                    xmlns=""
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <Image src={image373} alt="Picture of the author 2" />
             </div>
           )}
         </div>
