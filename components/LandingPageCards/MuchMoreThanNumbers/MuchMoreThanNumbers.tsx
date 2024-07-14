@@ -28,7 +28,7 @@ export default function MuchMoreThanNumbers({ languages }: { languages: any }) {
             <h2 className="text-4xl font-bold mb-2 text-custom-orange">
               {muchMoreThanNumbers.block.first.title}
             </h2>
-            <p className="text-gray-400 text-2xl pr-3	">
+            <p className="text-[#FEFDE8] text-2xl pr-3	">
               {muchMoreThanNumbers.block.first.text}
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function MuchMoreThanNumbers({ languages }: { languages: any }) {
             <h2 className="text-4xl font-bold mb-2 text-custom-orange">
               {muchMoreThanNumbers.block.second.title}
             </h2>
-            <p className="text-gray-400 text-2xl pr-3	">
+            <p className="text-[#FEFDE8] text-2xl pr-3	">
               {muchMoreThanNumbers.block.second.text}
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function MuchMoreThanNumbers({ languages }: { languages: any }) {
             <h2 className="text-4xl font-bold mb-2 text-custom-orange">
               {muchMoreThanNumbers.block.third.title}
             </h2>
-            <p className="text-gray-400 text-2xl	">
+            <p className="text-[#FEFDE8] text-2xl	">
               {muchMoreThanNumbers.block.third.text}
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function MuchMoreThanNumbers({ languages }: { languages: any }) {
               {muchMoreThanNumbers.block.fourth.text}
             </p>
             <a
-              href="https://seusite.com/criar-conta"
+              href="https://dashboard.flizbar.com/register"
               className="text-custom-orange underline mt-4"
             >
               {muchMoreThanNumbers.block.fourth.link}
