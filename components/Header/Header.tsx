@@ -1,4 +1,5 @@
 "use client";
+
 import { Locale } from "@/i18n.config";
 import LocaleSwitch from "@/components/LocaleSwitch/LocaleSwitch";
 import logo from "../../assets/logo.png";
@@ -43,11 +44,16 @@ export default function Header({
 
         <div className="hidden md:flex items-center gap-[16px] -mb-2">
           <LocaleSwitch lang={lang} languages={btn} />
-          <button className="flex gap-[8px] border w-[154px] h-[40px] items-center justify-center rounded font-semibold text-[16px]">
+          <a
+            href="https://dashboard.flizbar.com/login"
+            className="flex gap-[8px] border w-[154px] h-[40px] items-center justify-center rounded font-semibold text-[16px]"
+          >
             {languages.client}{" "}
             <Image alt="user-img" src={vector.src} width={20} height={20} />
-          </button>
-          <OpenAccButton text={languages.buttonTxt} />
+          </a>
+          <a href="https://dashboard.flizbar.com/register">
+            <OpenAccButton text={languages.buttonTxt} />
+          </a>
         </div>
 
         <div className="flex md:hidden">
