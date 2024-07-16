@@ -34,49 +34,41 @@ export default function ServicesCard({ languages }: { languages: any }) {
       <div className="flex w-full h-[100px]  mb-8 md:mb-4 overflow-x-auto">
         <SelectCard
           title={services.menu.first.title}
-          // subtitle="teste subtitulo"
           selected={selectedCard === "first-card"}
           onClick={() => setSelectedCard("first-card")}
         />
         <SelectCard
           title={services.menu.second.title}
-          // subtitle="teste subtitulo 2"
           selected={selectedCard === "second-card"}
           onClick={() => setSelectedCard("second-card")}
         />
         <SelectCard
           title={services.menu.third.title}
-          // subtitle="teste subtitulo 3"
           selected={selectedCard === "third-card"}
           onClick={() => setSelectedCard("third-card")}
         />
         <SelectCard
           title={services.menu.fourth.title}
-          // subtitle="teste subtitulo 4"
           selected={selectedCard === "fourth-card"}
           onClick={() => setSelectedCard("fourth-card")}
         />
         <SelectCard
           title={services.menu.fifth.title}
-          // subtitle="teste subtitulo 5"
           selected={selectedCard === "fifth-card"}
           onClick={() => setSelectedCard("fifth-card")}
         />
         <SelectCard
           title={services.menu.sixth.title}
-          // subtitle="teste subtitulo 6"
           selected={selectedCard === "sixth-card"}
           onClick={() => setSelectedCard("sixth-card")}
         />
         <SelectCard
           title={services.menu.seventh.title}
-          // subtitle="teste subtitulo 7"
           selected={selectedCard === "seventh-card"}
           onClick={() => setSelectedCard("seventh-card")}
         />
         <SelectCard
           title={services.menu.eighth.title}
-          // subtitle="teste subtitulo 8"
           selected={selectedCard === "eighth-card"}
           onClick={() => setSelectedCard("eighth-card")}
         />
@@ -94,21 +86,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.first.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -125,21 +119,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.second.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -156,21 +152,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.third.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -187,21 +185,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.fourth.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -218,21 +218,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.fifth.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -249,21 +251,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.sixth.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -280,21 +284,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.seventh.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
@@ -311,21 +317,23 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.eighth.text}
                 </p>
-                <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
-                  {services.button}
-                  <svg
-                    className="ml-2 h-4 w-4"
-                    xmlns=""
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </button>
+                <a href="https://dashboard.flizbar.com/register/">
+                  <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
+                    {services.button}
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      xmlns=""
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </a>
               </div>
               <Image src={image373} alt="Picture of the author 2" />
             </div>
