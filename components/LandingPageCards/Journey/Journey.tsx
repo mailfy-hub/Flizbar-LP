@@ -7,7 +7,7 @@ export default function Journey({ languages }: { languages: any }) {
 
   return (
     <div className=" text-white font-sans">
-      <div className="container mx-auto py-16">
+      <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 px-5 mr-9 ">
             <Image

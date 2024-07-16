@@ -24,14 +24,14 @@ export default function ServicesCard({ languages }: { languages: any }) {
   return (
     <div className="flex flex-col w-full">
       <div className="flex flex-col justify-center items-center w-full">
-        <p className="text-[#C89305] font-semibold text-[14px] mt-12">
+        <p className="text-[#C89305] font-semibold text-[14px]">
           {services.title}
         </p>
         <p className="text-white font-semibold text-3xl mt-12 mb-12">
           {services.subtitle}
         </p>
       </div>
-      <div className="flex w-full h-[100px]  mb-8 md:mb-4 overflow-x-auto">
+      <div className="flex w-full h-[100px] md:mb-4 overflow-x-auto">
         <SelectCard
           title={services.menu.first.title}
           selected={selectedCard === "first-card"}

@@ -63,7 +63,7 @@ export default function Page({
         </div>
       </div>
 
-      <div className="flex flex-col mt-[124px] py-[50px] bg-black">
+      <div className="flex flex-col mt-[124px] py-[20px] bg-black">
         <div id="services">
           <div className="w-full max-w-[1200px] mx-auto">
             <ServicesCard languages={dictionary} />
@@ -71,7 +71,7 @@ export default function Page({
         </div>
       </div>
 
-      <div className="flex flex-col mt-[124px] py-[72px] bg-black">
+      <div className="flex flex-col mt-[124px]  bg-black">
         <div id="contact">
           <div className="w-full max-w-[1200px] mx-auto">
             <ContactCard languages={dictionary} />
@@ -79,7 +79,7 @@ export default function Page({
         </div>
       </div>
 
-      <div className="flex flex-col mt-[124px] py-[72px] bg-black">
+      <div className="flex flex-col mt-[124px] py-[20px] bg-black">
         <div id="footer">
           <div className="w-full max-w-[1200px] mx-auto">
             <Footer languages={dictionary} />

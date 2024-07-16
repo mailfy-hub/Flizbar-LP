@@ -37,7 +37,7 @@ export default function ContactCard({ languages }: { languages: any }) {
   };
 
   return (
-    <div className="flex flex-col w-full 2xl:mt-[180px] 2xl:h-[calc(100vh-165px)] justify-center items-center">
+    <div className="flex flex-col w-full 2xl:h-[calc(100vh-165px)] justify-center items-center">
       <div className="flex flex-col justify-center items-center w-full mb-14">
         <p className="text-[#C89305] font-bold text-[14px] mt-4">
           {contact.topText}
