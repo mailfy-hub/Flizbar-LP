@@ -24,21 +24,23 @@ export default function Journey({ languages }: { languages: any }) {
               <strong>{` ${journey.titleStrong}`}</strong>&quot;
             </h1>
             <p className="text-[20px] mb-6">{journey.text}</p>
-            <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded">
-              {journey.button}
-              <svg
-                className="ml-2 h-4 w-4"
-                xmlns=""
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </button>
+            <a href="https://dashboard.flizbar.com/register/">
+              <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded">
+                {journey.button}
+                <svg
+                  className="ml-2 h-4 w-4"
+                  xmlns=""
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </a>
           </div>
         </div>
       </div>
