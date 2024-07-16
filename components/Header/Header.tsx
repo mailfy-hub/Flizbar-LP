@@ -36,9 +36,9 @@ export default function Header({
 
           <div className="hidden md:flex items-center gap-x-[24px] md:gap-x-[10px] 2xl:gap-x-[48px] mt-2 text-[16px] md:text-[12px] xl:text-[16px]">
             <a href="#beginning">{languages.beginning}</a>
-            <a href="#services">{languages.services}</a>
             <a href="#about">{languages.about}</a>
-            <a href="#contact">{languages.contact}</a>
+            <a href="#services">{languages.services}</a>
+            {/* <a href="#contact">{languages.contact}</a> */}
           </div>
         </div>
 

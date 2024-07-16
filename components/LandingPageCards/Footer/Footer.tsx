@@ -38,9 +38,9 @@ export default function Footer({ languages }: { languages: any }) {
             {languages.header.institutional}
           </button>
           <button className="text-left">{languages.header.beginning}</button>
-          <button className="text-left">{languages.header.advantages}</button>
-          <button className="text-left">{languages.header.getToKnow}</button>
-          <button className="text-left">{languages.header.plans}</button>
+          <button className="text-left">{languages.header.about}</button>
+          <button className="text-left">{languages.header.services}</button>
+          {/* <button className="text-left">{languages.header.plans}</button> */}
         </div>
 
         <div className="flex flex-col gap-6">
@@ -76,8 +76,9 @@ export default function Footer({ languages }: { languages: any }) {
             </a>
           </div>
 
-          <p className={`max-w-[279px] ${inter.className}`}>
-            {footer.address} <span>{footer.state}</span>
+          <p className={`max-w-[220px] ${inter.className}`}>
+            {footer.address} <br></br>
+            <span>{footer.state}</span>
           </p>
         </div>
       </div>
