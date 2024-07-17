@@ -1,9 +1,5 @@
-import React, { useState } from "react";
-import SelectCard from "./SelectCard";
-import Image from "next/image";
-import OpenAccButton from "../../OpenAccButton/OpenAccButton";
-import img from "../../assets/frame373.png";
 import { Inter } from "next/font/google";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,33 +11,41 @@ export default function AboutCard({ languages }: { languages: any }) {
   return (
     <div className="w-full">
       <div className="flex flex-col justify-center items-center w-full">
-        <p className="text-[#C89305] font-semibold text-[14px] mt-12">
+        <p className="text-[#C89305] font-semibold text-[14px] mt-12 text-center">
           {about.title}
         </p>
-        <p className="text-[40px] mb-[20px] ">{about.subtitle}</p>
+        <p className="text-[32px] md:text-[40px] mb-[20px] text-center">
+          {about.subtitle}
+        </p>
 
-        <p className="flex justify-center items-center text-center text-[20px] mt-12 mx-10">
+        <p className="flex justify-center items-center text-center text-[20px] mt-12 mx-4 md:mx-10">
           {about.text}
         </p>
       </div>
 
-      <div className="container mx-auto grid grid-cols-3 gap-5 my-20">
+      <div className="container md:mx-auto grid md:grid-cols-3 gap-5 my-20 mx-4">
         <div className="flex flex-col  gap-12 mt-16">
-          <h1 className="text-5xl font-bold ">{about.menu.first.title}</h1>
+          <h1 className="text-3xl md:text-5xl  font-bold ">
+            {about.menu.first.title}
+          </h1>
           <div className="flex flex-col items-center gap-4">
             <p className="text-base  ">{about.menu.first.textFirst}</p>
             <p className="text-base ">{about.menu.first.textSecond}</p>
           </div>
         </div>
         <div className="flex flex-col  gap-12 mt-16">
-          <h1 className="text-5xl font-bold ">{about.menu.second.title}</h1>
+          <h1 className="text-3xl md:text-5xl font-bold ">
+            {about.menu.second.title}
+          </h1>
           <div className="flex flex-col  gap-4">
             <p className="text-base ">{about.menu.second.textFirst}</p>
             <p className="text-base ">{about.menu.second.textSecond}</p>
           </div>
         </div>
         <div className="flex flex-col gap-12 mt-16">
-          <h1 className="text-5xl font-bold ">{about.menu.third.title}</h1>
+          <h1 className="text-3xl md:text-5xl font-bold ">
+            {about.menu.third.title}
+          </h1>
           <div className="flex flex-col  gap-4">
             <p className="text-base ">{about.menu.third.textFirst}</p>
             <p className="text-base ">{about.menu.third.textSecond}</p>
@@ -49,7 +53,7 @@ export default function AboutCard({ languages }: { languages: any }) {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center text-center gap-12 mt-16">
-        <h1 className="text-3xl font-bold text-center mx-80">
+        <h1 className="text-3xl font-bold text-center md:mx-80">
           {about.menu.fourth.text}
         </h1>
         <a href="https://dashboard.flizbar.com/register">

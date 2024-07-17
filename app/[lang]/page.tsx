@@ -1,19 +1,18 @@
 "use client";
 import Header from "@/components/Header/Header";
-import CardAbout from "@/components/LandingPageCards/About/AboutCard";
+import AboutCard from "@/components/LandingPageCards/About/AboutCard";
 import BegginPresentationCard from "@/components/LandingPageCards/BegginPresentationCard/BegginPresentationCard";
 import ContactCard from "@/components/LandingPageCards/ContactCard/ContactCard";
-import KnowCard from "@/components/LandingPageCards/KnowCard/KnowCard";
+import Footer from "@/components/LandingPageCards/Footer/Footer";
+import Journey from "@/components/LandingPageCards/Journey/Journey";
 import MuchMoreThanNumbers from "@/components/LandingPageCards/MuchMoreThanNumbers/MuchMoreThanNumbers";
+import ServicesCard from "@/components/LandingPageCards/ServicesCard/ServicesCard";
 import { Locale } from "@/i18n.config";
+import Image from "next/image";
 import { TickerTape } from "react-ts-tradingview-widgets";
 import bg from "../../assets/background_hero.png";
+import whatsapp from "../../assets/whatsapp.svg";
 import { useDictionary } from "./dictionary-provider";
-import AboutCard from "@/components/LandingPageCards/About/AboutCard";
-import Journey from "@/components/LandingPageCards/Journey/Journey";
-import ServicesCard from "@/components/LandingPageCards/ServicesCard/ServicesCard";
-import Footer from "@/components/LandingPageCards/Footer/Footer";
-
 export default function Page({
   params: { lang },
 }: {
@@ -23,6 +22,13 @@ export default function Page({
 
   return (
     <>
+      <a
+        className="fixed bottom-4 right-4 cursor-pointer hover:opacity-85 transition-all w-12"
+        href="#"
+      >
+        <Image src={whatsapp} alt="contato whatsapp" />
+      </a>
+
       <div
         id="beginning"
         className="w-full bg-cover bg-center"

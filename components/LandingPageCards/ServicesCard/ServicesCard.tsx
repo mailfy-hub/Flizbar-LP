@@ -24,7 +24,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
   return (
     <div className="flex flex-col w-full">
       <div className="flex flex-col justify-center items-center w-full">
-        <p className="text-[#C89305] font-semibold text-[14px]">
+        <p className="text-[#C89305] font-semibold text-[14px] uppercase">
           {services.title}
         </p>
         <p className="text-white font-semibold text-3xl mt-12 mb-12">
@@ -76,13 +76,13 @@ export default function ServicesCard({ languages }: { languages: any }) {
       <div className="flex flex-col-reverse md:flex-row w-full lg:justify-between 2xl:mt-[100px]">
         <div className="flex flex-col 2xl:justify-between">
           {selectedCard === "first-card" && (
-            <div className="flex">
-              <div className="mr-24">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
+              <div className="md:mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.first.title}
                 </p>
                 <p
-                  className={`max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
+                  className={`md:max-w-[727px] text-[16px] md:text-[18px] 2xl:text-[20px] ${inter.className}`}
                 >
                   {services.menu.first.text}
                 </p>
@@ -104,7 +104,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image className="mt-8 md:mt-0" src={image373} alt="Picture of the author 2" />
             </div>
           )}
 

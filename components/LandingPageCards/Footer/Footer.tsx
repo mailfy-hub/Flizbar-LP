@@ -19,7 +19,7 @@ export default function Footer({ languages }: { languages: any }) {
   const footer = languages.page.default.footer;
 
   return (
-    <div>
+    <div className="mx-4 md:mx-0">
       <div className="flex flex-col md:flex-row w-full gap-12 md:gap-20 mt-[64px]">
         <div>
           <div

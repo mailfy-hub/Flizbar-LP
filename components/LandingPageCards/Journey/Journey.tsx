@@ -6,7 +6,7 @@ export default function Journey({ languages }: { languages: any }) {
   const journey = languages.page.default.journey;
 
   return (
-    <div className=" text-white font-sans">
+    <div className=" text-white font-sans mx-4 md:mx-0">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 px-5 mr-9 ">
@@ -18,8 +18,8 @@ export default function Journey({ languages }: { languages: any }) {
               height={400}
             />
           </div>
-          <div className="md:w-1/2">
-            <h1 className="text-[40px] md:text-6xl  mb-4">
+          <div className="md:w-1/2 mt-12 md:mt-0">
+            <h1 className="text-3xl md:text-[40px] md:text-6xl  mb-4">
               &quot;{journey.title}
               <strong>{` ${journey.titleStrong}`}</strong>&quot;
             </h1>

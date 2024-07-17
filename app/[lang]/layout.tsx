@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
 import { Locale, i18n } from "@/i18n.config";
-import { Inter, Raleway } from "next/font/google";
-import "./globals.css";
 import { getDictionary } from "@/lib/dictionary";
-import DictionaryProvider from "./dictionary-provider";
+import type { Metadata } from "next";
 import { CookiesProvider } from "next-client-cookies/server";
+import { Inter, Raleway } from "next/font/google";
 import Logo from "../../assets/icon-mark.png";
+import DictionaryProvider from "./dictionary-provider";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 const raleway = Raleway({ subsets: ["latin"] });
@@ -29,7 +29,7 @@ export default async function RootLayout({
   const dictionary = await getDictionary(params.lang);
   return (
     <html lang={params.lang}>
-      <body className={raleway.className}>
+      <body className={`${raleway.className} relative`}>
         <link rel="icon" href={Logo.src} sizes="any" />
         <CookiesProvider>
           <DictionaryProvider dictionary={dictionary}>

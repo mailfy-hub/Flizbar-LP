@@ -1,9 +1,7 @@
-import React from "react";
-import * as yup from "yup";
-import { useForm, SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import Footer from "../Footer/Footer";
 import { Inter } from "next/font/google";
+import { SubmitHandler, useForm } from "react-hook-form";
+import * as yup from "yup";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,14 +30,13 @@ export default function ContactCard({ languages }: { languages: any }) {
   });
 
   const onSubmitHandler: SubmitHandler<FormValues> = (data) => {
-    console.log({ data });
     reset();
   };
 
   return (
-    <div className="flex flex-col w-full 2xl:h-[calc(100vh-165px)] justify-center items-center">
-      <div className="flex flex-col justify-center items-center w-full mb-14">
-        <p className="text-[#C89305] font-bold text-[14px] mt-4">
+    <div className="flex flex-col w-full 2xl:h-[calc(100vh-165px)] justify-center items-center mx-4 md:mx-0">
+      <div className="flex flex-col justify-center items-center w-full mb-14 ">
+        <p className="text-[#C89305] font-bold text-[14px] mt-4 uppercase">
           {contact.topText}
         </p>
         <p className="text-[30px] md:text-[40px] mb-[20px]">{contact.title}</p>
@@ -86,7 +83,6 @@ export default function ContactCard({ languages }: { languages: any }) {
           </button>
         </form>
       </div>
-      {/* <Footer languages={languages} /> */}
     </div>
   );
 }
