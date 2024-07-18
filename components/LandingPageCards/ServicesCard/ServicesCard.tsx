@@ -4,7 +4,14 @@ import Image from "next/image";
 import OpenAccButton from "@/components/OpenAccButton/OpenAccButton";
 import img from "../../../assets/frame373.png";
 import { Inter } from "next/font/google";
-import image373 from "../../../assets/Frame 373.png";
+import treasury from "../../../assets/treasury.png";
+import commodities from "../../../assets/commodities.png";
+import acoes from "../../../assets/acoes.png";
+import opcoes from "../../../assets/opcoes.png";
+import indices from "../../../assets/indicies.png";
+import etf from "../../../assets/etf.png";
+import cfd from "../../../assets/cfd.png";
+import mercadoFuturo from "../../../assets/mercado-do-futuro.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -104,7 +111,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image className="mt-8 md:mt-0" src={image373} alt="Picture of the author 2" />
+              <Image className="mt-8 md:mt-0" src={treasury} alt="Treasury" />
             </div>
           )}
 
@@ -137,7 +144,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={commodities} alt="Commodities" />
             </div>
           )}
 
@@ -170,7 +177,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={acoes} alt="Ações" />
             </div>
           )}
 
@@ -203,7 +210,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={opcoes} alt="Opções" />
             </div>
           )}
 
@@ -236,7 +243,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={indices} alt="Índices" />
             </div>
           )}
 
@@ -269,7 +276,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={etf} alt="ETF" />
             </div>
           )}
 
@@ -302,7 +309,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={cfd} alt="CFD" />
             </div>
           )}
 
@@ -335,7 +342,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={image373} alt="Picture of the author 2" />
+              <Image src={mercadoFuturo} alt="Mercado Futuro" />
             </div>
           )}
         </div>
