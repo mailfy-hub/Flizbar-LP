@@ -116,7 +116,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
           )}
 
           {selectedCard === "second-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.second.title}
@@ -144,12 +144,16 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={commodities} alt="Commodities" />
+              <Image
+                className="mt-8 md:mt-0"
+                src={commodities}
+                alt="Commodities"
+              />
             </div>
           )}
 
           {selectedCard === "third-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.third.title}
@@ -177,12 +181,12 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={acoes} alt="Ações" />
+              <Image className="mt-8 md:mt-0" src={acoes} alt="Ações" />
             </div>
           )}
 
           {selectedCard === "fourth-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.fourth.title}
@@ -210,12 +214,12 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={opcoes} alt="Opções" />
+              <Image className="mt-8 md:mt-0" src={opcoes} alt="Opções" />
             </div>
           )}
 
           {selectedCard === "fifth-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.fifth.title}
@@ -243,12 +247,12 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={indices} alt="Índices" />
+              <Image className="mt-8 md:mt-0" src={indices} alt="Índices" />
             </div>
           )}
 
           {selectedCard === "sixth-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.sixth.title}
@@ -276,12 +280,12 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={etf} alt="ETF" />
+              <Image className="mt-8 md:mt-0" src={etf} alt="ETF" />
             </div>
           )}
 
           {selectedCard === "seventh-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.seventh.title}
@@ -309,12 +313,12 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={cfd} alt="CFD" />
+              <Image className="mt-8 md:mt-0" src={cfd} alt="CFD" />
             </div>
           )}
 
           {selectedCard === "eighth-card" && (
-            <div className="flex">
+            <div className="flex flex-col md:flex-row mx-4 md:mx-0">
               <div className="mr-24">
                 <p className="max-w-[727px] text-[32px] md:text-[40px] 2xl:text-[48px] mb-[20px] mt-10 md:mt-0 leading-[40px] md:leading-[55px]">
                   {services.menu.eighth.title}
@@ -342,7 +346,11 @@ export default function ServicesCard({ languages }: { languages: any }) {
                   </button>
                 </a>
               </div>
-              <Image src={mercadoFuturo} alt="Mercado Futuro" />
+              <Image
+                className="mt-8 md:mt-0"
+                src={mercadoFuturo}
+                alt="Mercado Futuro"
+              />
             </div>
           )}
         </div>
