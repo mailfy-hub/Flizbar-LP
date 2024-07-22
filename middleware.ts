@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (pathname === "/") {
-    return NextResponse.redirect(new URL("/pt-BR", request.url));
+    return NextResponse.redirect(new URL("/en", request.url));
   }
 
   return NextResponse.next();
