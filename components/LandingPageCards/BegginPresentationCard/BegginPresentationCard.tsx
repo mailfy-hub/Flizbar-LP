@@ -5,8 +5,10 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function BegginPresentationCard({
+  lang,
   languages,
 }: {
+  lang: string;
   languages: any;
 }) {
   return (
@@ -24,7 +26,7 @@ export default function BegginPresentationCard({
           {languages.page.default.beginning.text}
         </p>
         <div className="flex flex-col md:flex-row gap-8 2xl:mb-[160px] w-full md:mb-[60px]">
-          <a href="https://dashboard.flizbar.com/login/">
+          <a href={`https://dashboard.flizbar.com/login?lang=${lang}`}>
             <OpenAccButton
               className="max-w-[232px] md:max-w-full h-[46px]"
               text={languages.page.default.beginning.button}

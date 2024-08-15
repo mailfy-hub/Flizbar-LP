@@ -15,7 +15,13 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Footer({ languages }: { languages: any }) {
+export default function Footer({
+  lang,
+  languages,
+}: {
+  lang: string;
+  languages: any;
+}) {
   const footer = languages.page.default.footer;
 
   return (
@@ -27,10 +33,12 @@ export default function Footer({ languages }: { languages: any }) {
             style={{ backgroundImage: `url(${logo.src})` }}
           ></div>
           <p className="text-[24px] max-w-[312px] mb-[32px]">{footer.title}</p>
-          <button className="flex gap-[8px] border w-[154px] h-[46px] items-center justify-center rounded font-semibold text-[16px]">
-            {languages.header.client}{" "}
-            <Image alt="user-img" src={vector.src} width={20} height={20} />
-          </button>
+          <a href={`https://dashboard.flizbar.com/login?lang=${lang}`}>
+            <button className="flex gap-[8px] border w-[154px] h-[46px] items-center justify-center rounded font-semibold text-[16px]">
+              {languages.header.client}{" "}
+              <Image alt="user-img" src={vector.src} width={20} height={20} />
+            </button>
+          </a>
         </div>
 
         <div className="flex flex-col gap-6">
@@ -71,7 +79,7 @@ export default function Footer({ languages }: { languages: any }) {
 
         <div className="flex flex-col gap-6">
           <div className="max-w-[260px]">
-            <a href="https://dashboard.flizbar.com/register">
+            <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
               <OpenAccButton text={languages.header.buttonTxt} />
             </a>
           </div>

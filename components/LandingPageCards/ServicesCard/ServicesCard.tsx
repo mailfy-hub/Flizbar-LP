@@ -15,7 +15,13 @@ import mercadoFuturo from "../../../assets/mercado-do-futuro.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function ServicesCard({ languages }: { languages: any }) {
+export default function ServicesCard({
+  lang,
+  languages,
+}: {
+  lang: string;
+  languages: any;
+}) {
   const services = languages.page.default.services;
   const [selectedCard, setSelectedCard] = useState<
     | "first-card"
@@ -93,7 +99,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.first.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -126,7 +132,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.second.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -163,7 +169,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.third.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -196,7 +202,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.fourth.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -229,7 +235,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.fifth.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -262,7 +268,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.sixth.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -295,7 +301,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.seventh.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg
@@ -328,7 +334,7 @@ export default function ServicesCard({ languages }: { languages: any }) {
                 >
                   {services.menu.eighth.text}
                 </p>
-                <a href="https://dashboard.flizbar.com/register/">
+                <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
                   <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded mt-12">
                     {services.button}
                     <svg

@@ -4,7 +4,13 @@ import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function MuchMoreThanNumbers({ languages }: { languages: any }) {
+export default function MuchMoreThanNumbers({
+  lang,
+  languages,
+}: {
+  lang: string;
+  languages: any;
+}) {
   const muchMoreThanNumbers = languages.page.default.moreThanNumbers;
 
   return (
@@ -54,7 +60,7 @@ export default function MuchMoreThanNumbers({ languages }: { languages: any }) {
                 {muchMoreThanNumbers.block.fourth.text}
               </p>
               <a
-                href="https://dashboard.flizbar.com/register"
+                href={`https://dashboard.flizbar.com/register?lang=${lang}`}
                 className="text-custom-orange underline mt-4"
               >
                 {muchMoreThanNumbers.block.fourth.link}

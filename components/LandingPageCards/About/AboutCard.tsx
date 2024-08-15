@@ -3,7 +3,13 @@ import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function AboutCard({ languages }: { languages: any }) {
+export default function AboutCard({
+  lang,
+  languages,
+}: {
+  lang: string;
+  languages: any;
+}) {
   const about = languages.page.default.about;
 
   const [selectedCard, setSelectedCard] = useState("first-card");
@@ -56,7 +62,7 @@ export default function AboutCard({ languages }: { languages: any }) {
         <h1 className="text-3xl font-bold text-center md:mx-80">
           {about.menu.fourth.text}
         </h1>
-        <a href="https://dashboard.flizbar.com/register">
+        <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
           <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded">
             {about.menu.fourth.btnText}
             <svg

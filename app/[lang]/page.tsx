@@ -40,7 +40,7 @@ export default function Page({
             languages={dictionary.header}
             btn={dictionary.languages}
           />
-          <BegginPresentationCard languages={dictionary} />
+          <BegginPresentationCard languages={dictionary} lang={lang} />
         </div>
         <TickerTape isTransparent colorTheme="dark"></TickerTape>
       </div>
@@ -48,7 +48,7 @@ export default function Page({
       <div className="flex flex-col px-[20px] md:px-[60px] 2xl:px-[112px] mt-[124px]">
         <div id="moreThanNumbers">
           <div className="w-full max-w-[1216px] mx-auto">
-            <MuchMoreThanNumbers languages={dictionary} />
+            <MuchMoreThanNumbers languages={dictionary} lang={lang} />
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default function Page({
       <div className="flex flex-col mt-[124px] py-[72px] bg-[#1E1C1B]">
         <div id="about">
           <div className="w-full max-w-[1216px] mx-auto">
-            <AboutCard languages={dictionary} />
+            <AboutCard languages={dictionary} lang={lang} />
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ export default function Page({
       <div className="flex flex-col mt-[124px] py-[72px] bg-black">
         <div id="journey">
           <div className="w-full max-w-[1216px] mx-auto">
-            <Journey languages={dictionary} />
+            <Journey languages={dictionary} lang={lang} />
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function Page({
       <div className="flex flex-col mt-[124px] py-[20px] bg-black">
         <div id="services">
           <div className="w-full max-w-[1200px] mx-auto">
-            <ServicesCard languages={dictionary} />
+            <ServicesCard languages={dictionary} lang={lang} />
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ export default function Page({
       <div className="flex flex-col mt-[124px] py-[20px] bg-black">
         <div id="footer">
           <div className="w-full max-w-[1200px] mx-auto">
-            <Footer languages={dictionary} />
+            <Footer languages={dictionary} lang={lang} />
           </div>
         </div>
       </div>

@@ -45,13 +45,13 @@ export default function Header({
         <div className="hidden md:flex items-center gap-[16px] -mb-2">
           <LocaleSwitch lang={lang} languages={btn} />
           <a
-            href="https://dashboard.flizbar.com/login"
+            href={`https://dashboard.flizbar.com/login?lang=${lang}`}
             className="flex gap-[8px] border w-[154px] h-[40px] items-center justify-center rounded font-semibold text-[16px]"
           >
             {languages.client}{" "}
             <Image alt="user-img" src={vector.src} width={20} height={20} />
           </a>
-          <a href="https://dashboard.flizbar.com/register">
+          <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
             <OpenAccButton text={languages.buttonTxt} />
           </a>
         </div>

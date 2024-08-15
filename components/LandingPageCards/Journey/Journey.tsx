@@ -2,7 +2,13 @@ import React from "react";
 import Image from "next/image";
 import img from "@/assets/Frame 399.png";
 
-export default function Journey({ languages }: { languages: any }) {
+export default function Journey({
+  lang,
+  languages,
+}: {
+  lang: string;
+  languages: any;
+}) {
   const journey = languages.page.default.journey;
 
   return (
@@ -24,7 +30,7 @@ export default function Journey({ languages }: { languages: any }) {
               <strong>{` ${journey.titleStrong}`}</strong>&quot;
             </h1>
             <p className="text-[20px] mb-6">{journey.text}</p>
-            <a href="https://dashboard.flizbar.com/register/">
+            <a href={`https://dashboard.flizbar.com/register?lang=${lang}`}>
               <button className="flex  items-center bg-[#A06A08] hover:bg-[#A06A08] text-white font-bold py-2 px-4 rounded">
                 {journey.button}
                 <svg
