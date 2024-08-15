@@ -59,6 +59,8 @@ export default function LocaleSwitch({
     }
   }, [cookies]);
 
+  console.log("selectedLocale", selectedLocale);
+
   return (
     <div className="relative w-[140px] md:max-w-[60px]">
       <div
@@ -67,7 +69,7 @@ export default function LocaleSwitch({
       >
         <div className="flex items-center">
           <Image
-            src={flagMap[selectedLocale].src}
+            src={flagMap[lang].src}
             alt={selectedLocale}
             width={26}
             height={26}
