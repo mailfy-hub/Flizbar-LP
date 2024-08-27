@@ -1,14 +1,15 @@
-import { yupResolver } from "@hookform/resolvers/yup";
+import axios from "axios";
+import { useFormik } from "formik";
 import { Inter } from "next/font/google";
-import { SubmitHandler, useForm } from "react-hook-form";
+import { useState } from "react";
 import * as yup from "yup";
 
 const inter = Inter({ subsets: ["latin"] });
 
 const schema = yup.object().shape({
-  name: yup.string().required(),
-  email: yup.string().email().required(),
-  phone: yup.string().required(),
+  name: yup.string().required("Name is required"),
+  email: yup.string().email("Invalid email").required("Email is required"),
+  phone: yup.string().required("Phone number is required"),
 });
 
 interface FormValues {
@@ -19,23 +20,42 @@ interface FormValues {
 
 export default function ContactCard({ languages }: { languages: any }) {
   const contact = languages.page.default.contact;
-
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-  } = useForm<FormValues>({
-    resolver: yupResolver(schema),
+  const [submitted, setSubmitted] = useState(false);
+  const formik = useFormik<FormValues>({
+    initialValues: {
+      name: "",
+      email: "",
+      phone: "",
+    },
+    validationSchema: schema,
+    onSubmit: async (values) => {
+      try {
+        console.log(values);
+        await axios.post(
+          `https://backend.mailfy.com/v1/contacts`,
+          {
+            name: values.name,
+            email: values.email,
+            phone: values.phone,
+            listId: "66743e5fd0dea16e07b0d532",
+          },
+          {
+            headers: {
+              "api-key": "dNZ6xjh6CxLHGtEfekCOVbBv6kQ=",
+            },
+          }
+        );
+        setSubmitted(true);
+        formik.resetForm();
+      } catch (error) {
+        console.error("Submission error:", error);
+      }
+    },
   });
-
-  const onSubmitHandler: SubmitHandler<FormValues> = (data) => {
-    reset();
-  };
 
   return (
     <div className="flex flex-col w-full 2xl:h-[calc(100vh-165px)] justify-center items-center mx-4 md:mx-0">
-      <div className="flex flex-col justify-center items-center w-full mb-14 ">
+      <div className="flex flex-col justify-center items-center w-full mb-14">
         <p className="text-[#C89305] font-bold text-[14px] mt-4 uppercase">
           {contact.topText}
         </p>
@@ -48,40 +68,59 @@ export default function ContactCard({ languages }: { languages: any }) {
         </p>
 
         <form
-          onSubmit={handleSubmit(onSubmitHandler)}
+          onSubmit={formik.handleSubmit}
           className="flex flex-col gap-4 max-w-[488px] w-full"
         >
           <input
             className="w-full bg-[#151412] border border-[#302F2D] rounded-sm py-[12px] px-[15px] pt-4 "
-            {...register("name")}
+            id="name"
+            name="name"
+            onChange={formik.handleChange}
             placeholder={contact.completeName}
             type="text"
-            required
           />
+          {formik.touched.name && formik.errors.name ? (
+            <div className="text-red-500 text-sm">{formik.errors.name}</div>
+          ) : null}
 
           <input
+            id="email"
+            name="email"
+            onChange={formik.handleChange}
             className="w-full bg-[#151412] border border-[#302F2D] rounded-sm py-[12px] px-[15px] pt-4 "
-            {...register("email")}
             placeholder={contact.email}
             type="text"
-            required
           />
+          {formik.touched.email && formik.errors.email ? (
+            <div className="text-red-500 text-sm">{formik.errors.email}</div>
+          ) : null}
 
           <input
+            id="phone"
+            name="phone"
+            onChange={formik.handleChange}
             className="w-full bg-[#151412] border border-[#302F2D] rounded-sm py-[12px] px-[15px] pt-4 "
-            {...register("phone")}
             placeholder={contact.phone}
             type="text"
-            required
           />
+          {formik.touched.phone && formik.errors.phone ? (
+            <div className="text-red-500 text-sm">{formik.errors.phone}</div>
+          ) : null}
 
           <button
+            disabled={submitted}
             type="submit"
-            className="w-full h-[48px] bg-[#A06A08] font-bold"
+            className="w-full h-[48px] bg-[#A06A08] font-bold disabled:opacity-65"
           >
             {contact.send}
           </button>
         </form>
+
+        {submitted && (
+          <div className="text-center text-[#C89305] text-[20px] mb-[20px] mt-6 font-medium">
+            Form sent successfully! ✨
+          </div>
+        )}
       </div>
     </div>
   );
