@@ -37,11 +37,11 @@ export default function ContactCard({ languages }: { languages: any }) {
             name: values.name,
             email: values.email,
             phone: values.phone,
-            listId: "66db5a5ab1c20dc77231d6c9",
+            listId: "66e2fd00ec888d69803b3579",
           },
           {
             headers: {
-              "api-key": "bjV7QgDht2Z1nlYm75ck6Qp0R2E=",
+              "api-key": "JmZV1OgvfaHSZIk4+lhWdHpHrvc=",
             },
           }
         );
