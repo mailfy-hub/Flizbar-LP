@@ -41,7 +41,7 @@ export default function ContactCard({ languages }: { languages: any }) {
           },
           {
             headers: {
-              "api-key": "/rvMFbNAgfiwi2sI+VBF6TPAot4==",
+              "api-key": "/rvMFbNAgfiwi2sI+VBF6TPAot4=",
             },
           }
         );
