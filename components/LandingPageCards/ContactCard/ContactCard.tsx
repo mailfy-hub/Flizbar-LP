@@ -32,7 +32,7 @@ export default function ContactCard({ languages }: { languages: any }) {
       try {
         console.log(values);
         await axios.post(
-          `https://backend.hml.mailfy.com/v1/contacts`,
+          `https://backend.mailfy.com/v1/contacts`,
           {
             name: values.name,
             email: values.email,
@@ -41,7 +41,7 @@ export default function ContactCard({ languages }: { languages: any }) {
           },
           {
             headers: {
-              "api-key": "dNZ6xjh6CxLHGtEfekCOVbBv6kQ=",
+              "api-key": "/rvMFbNAgfiwi2sI+VBF6TPAot4==",
             },
           }
         );
