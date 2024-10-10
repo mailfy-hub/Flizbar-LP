@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 import { useState } from "react";
 import * as yup from "yup";
 
+import InputMask from "react-input-mask";
+
 const inter = Inter({ subsets: ["latin"] });
 
 const schema = yup.object().shape({
@@ -20,6 +22,7 @@ interface FormValues {
 
 export default function ContactCard({ languages }: { languages: any }) {
   const contact = languages.page.default.contact;
+
   const [submitted, setSubmitted] = useState(false);
   const formik = useFormik<FormValues>({
     initialValues: {
@@ -29,6 +32,9 @@ export default function ContactCard({ languages }: { languages: any }) {
     },
     validationSchema: schema,
     onSubmit: async (values) => {
+      function removeCountryCode(phoneNumber: string) {
+        return phoneNumber.replace("+55", "").trim();
+      }
       try {
         console.log(values);
         await axios.post(
@@ -36,7 +42,7 @@ export default function ContactCard({ languages }: { languages: any }) {
           {
             name: values.name,
             email: values.email,
-            phone: values.phone,
+            phone: removeCountryCode(values.phone),
             listId: "66743e5fd0dea16e07b0d532",
           },
           {
@@ -95,14 +101,22 @@ export default function ContactCard({ languages }: { languages: any }) {
             <div className="text-red-500 text-sm">{formik.errors.email}</div>
           ) : null}
 
-          <input
-            id="phone"
-            name="phone"
+          <InputMask
+            mask="+55 (99) 99999-9999"
+            value={formik.values.phone}
             onChange={formik.handleChange}
-            className="w-full bg-[#151412] border border-[#302F2D] rounded-sm py-[12px] px-[15px] pt-4 "
-            placeholder={contact.phone}
-            type="text"
-          />
+          >
+            {/* @ts-ignore */}
+            {() => (
+              <input
+                id="phone"
+                name="phone"
+                className="w-full bg-[#151412] border border-[#302F2D] rounded-sm py-[12px] px-[15px] pt-4"
+                placeholder={contact.phone}
+                type="text"
+              />
+            )}
+          </InputMask>
           {formik.touched.phone && formik.errors.phone ? (
             <div className="text-red-500 text-sm">{formik.errors.phone}</div>
           ) : null}
