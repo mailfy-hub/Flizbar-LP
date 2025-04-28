@@ -26,7 +26,7 @@ export default function Footer({
 
   return (
     <div className="mx-4 md:mx-0">
-      <div className="flex flex-col md:flex-row w-full gap-12 md:gap-20 mt-[64px]">
+      <div className="flex flex-col md:flex-row w-full gap-12 md:gap-20 mt-[64px] md:justify-between">
         <div>
           <div
             className="w-[125px] h-[32px] mb-[40px]"
@@ -41,17 +41,16 @@ export default function Footer({
           </a>
         </div>
 
-        <div className="flex flex-col gap-6">
+        {/* <div className="flex flex-col gap-6">
           <button className="text-left">
             {languages.header.institutional}
           </button>
           <button className="text-left">{languages.header.beginning}</button>
           <button className="text-left">{languages.header.about}</button>
           <button className="text-left">{languages.header.services}</button>
-          {/* <button className="text-left">{languages.header.plans}</button> */}
-        </div>
+        </div> */}
 
-        <div className="flex flex-col gap-6">
+        {/* <div className="flex flex-col gap-6">
           <p>{footer.talkToUs}</p>
 
           <div className={`flex gap-1 items-center ${inter.className}`}>
@@ -75,7 +74,7 @@ export default function Footer({
             />
             <p>{footer.number}</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col gap-6">
           <div className="max-w-[260px]">
@@ -102,7 +101,7 @@ export default function Footer({
         </div>
       </div>
 
-      <div className="flex w-full flex-col md:flex-row justify-between items-center mt-[40px] mb-6 font-thin">
+      {/* <div className="flex w-full flex-col md:flex-row justify-between items-center mt-[40px] mb-6 font-thin">
         <div className="flex items-center gap-x-[24px] font-thin">
           <Link href="" target="_blank">
             <Image
@@ -153,7 +152,7 @@ export default function Footer({
         <p className="font-thin text-[16px] max-w-[300px] md:max-w-full text-center mt-8 md:mt-0">
           {footer.company}
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }
