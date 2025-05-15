@@ -23,24 +23,24 @@
         "imgAlt": "Más que números",
         "block": {
           "first": {
-          "title": "Proteccion",
-          "text": "La seguridad primero, segundo y tercero"
+            "title": "Proteccion",
+            "text": "La seguridad primero, segundo y tercero"
           },
           "second": {
-          "title": "Consistencia",
-          "text": "Avance sólido sin altibajos"
+            "title": "Consistencia",
+            "text": "Avance sólido sin altibajos"
           },
           "third": {
-          "title": "Crecimiento",
-          "text": "Avance sólido sin altibajos"
+            "title": "Crecimiento",
+            "text": "Avance sólido sin altibajos"
           },
           "fourth": {
-          "text": "Un reflejo de nuestra excelencia en el servicio con total orientación al cliente.",
-          "link": "Crea una cuenta"
+            "text": "Un reflejo de nuestra excelencia en el servicio con total orientación al cliente.",
+            "link": "Crea una cuenta"
           }
         }
- },
-"about": {
+      },
+      "about": {
         "title": "ACERCA DE FLIZBAR",
         "subtitle": "Más información sobre nosotros",
         "text": "En Flizbar, estamos comprometidos a transformar la forma en que aborda sus inversiones. Combinando tecnología de vanguardia y la experiencia de nuestros expertos en acciones, ofrecemos soluciones integrales para simplificar y mejorar sus recursos financieros.",
@@ -64,6 +64,29 @@
             "text": "¿Listo para transformar la forma de invertir? Cuente con nosotros.",
             "btnText": "Abre tu cuenta ahora"
           }
+        },
+        "values": {
+          "title": "Nuestros valores",
+          "transparency": {
+            "title": "Transparencia",
+            "text": "Actuamos con claridad y descripción de nuestras estrategias, decisiones y resultados. La confianza se construye con la verdad."
+          },
+          "integrity": {
+            "title": "Integridad",
+            "text": "Mantenemos nuestros principios por encima de todo. Preferimos perder una oportunidad antes que comprometer nuestros valores."
+          },
+          "clientFocus": {
+            "title": "Enfoque en el cliente",
+            "text": "El éxito de nuestros clientes es nuestro éxito. Trabajamos lado a lado, con dedicación real, para lograr los mejores resultados."
+          },
+          "excellence": {
+            "title": "Excelencia",
+            "text": "Buscamos constantemente el perfeccionamiento técnico, estratégico y humano. La calidad y la responsabilidad van de la mano."
+          },
+          "innovation": {
+            "title": "Innovación",
+            "text": "Desarrollamos soluciones creativas y eficientes que no solo generan beneficios, sino también un impacto positivo en el mundo."
+          }
         }
       },
       "journey": {
@@ -71,7 +94,7 @@
         "titleStrong": " un simple paso.",
         "text": "Flizbar se convirtió en un fondo de cobertura en 2021, después de 18 años de experiencia en el mercado financiero de su principal gestor. El grupo fue creado con un enfoque en inversores calificados y empresas asociadas, su principal objetivo es alinear crecimiento y riesgo de forma sostenible. Nuestros expertos contribuyen a la generación de riqueza con información necesaria y categórica.",
         "button": "Abre tu cuenta ahora"
- },
+      },
       "know": {
         "title": "SOBRE FLIZBAR",
         "subtitle": "Conócenos Mejor",

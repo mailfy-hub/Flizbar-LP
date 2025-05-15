@@ -58,6 +58,62 @@ export default function AboutCard({
           </div>
         </div>
       </div>
+
+      {/* Nova div para os valores usando os arquivos de tradução */}
+      <div className="container md:mx-auto grid md:grid-cols-3 gap-4 mx-4">
+        <div className="flex flex-col gap-6 ">
+          <h1 className="text-3xl md:text-5xl font-bold ">
+            {about.values.title}
+          </h1>
+          <div className="flex flex-col gap-4">
+            <p className="text-base font-bold">
+              {about.values.transparency.title}:
+            </p>
+            <p className="text-base">
+              {about.values.transparency.text}
+            </p>
+            <p className="text-base font-bold">
+              {about.values.integrity.title}:
+            </p>
+            <p className="text-base">
+              {about.values.integrity.text}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <h1 className="text-3xl md:text-5xl font-bold opacity-0">
+            {about.values.title}
+          </h1>
+          <div className="flex flex-col gap-4">
+            <p className="text-base font-bold">
+              {about.values.clientFocus.title}:
+            </p>
+            <p className="text-base">
+              {about.values.clientFocus.text}
+            </p>
+            <p className="text-base font-bold">
+              {about.values.excellence.title}:
+            </p>
+            <p className="text-base">
+              {about.values.excellence.text}
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col">
+          <h1 className="text-3xl md:text-5xl font-bold opacity-0">
+            {about.values.title}
+          </h1>
+          <div className="flex flex-col gap-4">
+            <p className="text-base font-bold">
+              {about.values.innovation.title}:
+            </p>
+            <p className="text-base">
+              {about.values.innovation.text}
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="flex flex-col justify-center items-center text-center gap-12 mt-16">
         <h1 className="text-3xl font-bold text-center md:mx-80">
           {about.menu.fourth.text}

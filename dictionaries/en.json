@@ -23,23 +23,23 @@
         "imgAlt": "More than numbers",
         "block": {
           "first": {
-          "title": "Protection",
-          "text": "Safety first, second and third"
+            "title": "Protection",
+            "text": "Safety first, second and third"
           },
           "second": {
-          "title": "Consistency",
-          "text": "Solid advancement without ups and downs"
+            "title": "Consistency",
+            "text": "Solid advancement without ups and downs"
           },
           "third": {
-          "title": "Growth",
-          "text": "Solid advancement without ups and downs"
+            "title": "Growth",
+            "text": "Solid advancement without ups and downs"
           },
           "fourth": {
-          "text": "A reflection of our excellence in service with total customer focus.",
-          "link": "Create an account"
+            "text": "A reflection of our excellence in service with total customer focus.",
+            "link": "Create an account"
           }
         }
- },
+      },
       "about": {
         "title": "ABOUT FLIZBAR",
         "subtitle": "Learn more about us",
@@ -64,6 +64,29 @@
             "text": "Ready to transform the way you invest? Count on us.",
             "btnText": "Open your account now"
           }
+        },
+        "values": {
+          "title": "Our values",
+          "transparency": {
+            "title": "Transparency",
+            "text": "We operate with clarity and disclosure of our strategies, decisions, and results. Trust is built on truth."
+          },
+          "integrity": {
+            "title": "Integrity",
+            "text": "We keep our principles above all. We prefer to lose an opportunity rather than compromise our values."
+          },
+          "clientFocus": {
+            "title": "Client Focus",
+            "text": "Our clients' success is our success. We work side by side, with real dedication, to achieve the best results."
+          },
+          "excellence": {
+            "title": "Excellence",
+            "text": "We constantly seek technical, strategic, and human improvement. Quality and responsibility go hand in hand."
+          },
+          "innovation": {
+            "title": "Innovation",
+            "text": "We develop creative and efficient solutions that not only generate profit but also positive impact in the world."
+          }
         }
       },
       "journey": {
@@ -71,7 +94,7 @@
         "titleStrong": " one simple step.",
         "text": "Flizbar became a hedge fund in 2021, after 18 years of experience in the financial market of its main manager. The group was created with a focus on qualified investors and partner companies, its main objective is to align growth and risk in a sustainable way. Our experts contribute to the generation of wealth with necessary and categorical information.",
         "button": "Open your account now"
- },
+      },
       "know": {
         "title": "ABOUT FLIZBAR",
         "subtitle": "Get to Know Us Better",

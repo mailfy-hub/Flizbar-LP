@@ -64,6 +64,29 @@
             "text": "Pronto para transformar sua maneira de investir? Conte conosco.",
             "btnText": "Abra sua conta agora"
           }
+        },
+        "values": {
+          "title": "Nossos valores",
+          "transparency": {
+            "title": "Transparência",
+            "text": "Atuamos com clareza e descrição de nossas estratégias, decisões e resultados. Confiança se constrói com verdade."
+          },
+          "integrity": {
+            "title": "Integridade",
+            "text": "Mantemos nossos princípios acima de tudo. Preferimos perder uma oportunidade a comprometer nossos valores."
+          },
+          "clientFocus": {
+            "title": "Foco no cliente",
+            "text": "O sucesso dos nossos clientes é o nosso sucesso. Trabalhamos lado a lado, com dedicação real, para alcançar os melhores resultados."
+          },
+          "excellence": {
+            "title": "Excelência",
+            "text": "Buscamos constantemente o aperfeiçoamento técnico, estratégico e humano. A qualidade e a responsabilidade caminham juntas."
+          },
+          "innovation": {
+            "title": "Inovação",
+            "text": "Desenvolvemos soluções criativas e eficientes que não apenas geram lucro, mas também impacto positivo no mundo."
+          }
         }
       },
       "journey": {
